@@ -15,3 +15,7 @@ def constitution(request):
 				pdf.read(), content_type='application/pdf')
 			response['Content-Disposition'] = 'filename=constitution.pdf'
 			return response
+
+def current(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/current.html', {'year':now.year})
