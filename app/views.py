@@ -19,3 +19,7 @@ def constitution(request):
 def current(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/current.html', {'year':now.year})
+
+def events(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/events.html', {'year':now.year})
