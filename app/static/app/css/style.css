@@ -1,0 +1,26 @@
+#mid{
+	margin:0;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+#sidebar{
+	border-left:1px #eee solid;
+}
+#footer{
+	text-align: center;
+	color:#999;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+#content{
+	padding-left:1em;
+	padding-right:1em;
+}
+.team-photo{
+	margin-top:1em;
+	margin-bottom:1em;
+	width:60%;
+}
+#learn-more{
+	display:none;
+}

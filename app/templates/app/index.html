@@ -1,0 +1,36 @@
+{% extends "app/base.html" %}
+
+{% block title %}SCS Home{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-3">Hello world!</h1>
+  <p class="lead">The Software Engineering And Computer Science Society (SCS) is an undergraduate student society 
+under the <a href="ecaconcordia.ca">Engineering and Computer Science Association (ECA)</a>, 
+at <a href="http://concordia.ca" target="_blank">Concordia University</a>.</p>
+  <hr class="my-2">
+  <p> The organization’s mandate is to promote Software Engineering, Computer Science and Computer Engineering at 
+  <a href="http://concordia.ca" target="_blank">Concordia University</a>.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#learn-more" role="button" id="btn-learn-more"
+    onclick="$('#btn-learn-more').hide(); $('#learn-more').slideDown();">Learn more</a>
+  </p>
+
+  <div id="learn-more">
+		<p>More specifically, SCS focuses on:</p>
+		<ul>
+			<li>Organizing academic <a href="/events">events</a> for students</li>
+			<li>Helping students learn more about Software Engineering, Computer Science and Computer Engineering</li>
+			<li>Help create a link between academic life and the industry</li>
+			<li>Building a strong relationship between students and faculty members</li>
+			<li>Organizing social <a href="/events">events</a> for students</li>
+			<li>Organizing competitions for students</li>
+		</ul>
+
+		<p>For more details about the society, you can refer to our
+		<a href="/constitution" target="_blank">constitution</a>.</p>
+  </div>
+</div>
+
+{% endblock %}
