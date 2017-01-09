@@ -3,6 +3,8 @@ from django.http import HttpResponse
 import datetime
 import os
 
+mailingListLink = "http://scsconcordia.us12.list-manage2.com/subscribe?u=4c052a132d5eb23fe2e2712b9&id=22644f4443";
+
 def index(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/index.html', {'year':now.year})
@@ -23,3 +25,11 @@ def current(request):
 def events(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/events.html', {'year':now.year})
+
+def faq(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/faq.html', {'year':now.year,'mailingList':mailingListLink})
+
+def involved(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/involved.html', {'year':now.year,'mailingList':mailingListLink})
