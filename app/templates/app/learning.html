@@ -1,0 +1,22 @@
+{% extends "app/base.html" %}
+
+{% block title %}SCS FAQ{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron" style="padding-top:2em">
+	{% load static from staticfiles %}
+  <h3>Learning Packages</h3><br>
+  <div class="alert alert-warning" role="alert">
+	  <h5 class="alert-heading">Coming Soon!</h5>
+	  <p>Unfortunately this section is still under construction. The SCS team is working very hard to make
+	  learning packages available to students wanting to learn new technologies.</p>
+	  <p class="mb-0">The new learning packages will include tutorials and sample projects in a variety of
+	  categories and utilizing a mutlitude of different programming languages. To make sure you don't miss
+	  the release of these packages register to our mailing list bellow</p><br>
+	  <a class="btn btn-outline-warning" href="{{mailingList}}" target="_blank" role="button">
+	  	SCS Mailing List</a>
+	</div>
+</div>
+
+{% endblock %}

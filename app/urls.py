@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^events$', views.events, name='events'),
     url(r'^faq$', views.faq, name='faq'),
     url(r'^get-involved$', views.involved, name='get-involved'),
+    url(r'^learning-packages$', views.learning, name='learning-packages'),
 ]

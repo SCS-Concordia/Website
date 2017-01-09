@@ -33,3 +33,7 @@ def faq(request):
 def involved(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/involved.html', {'year':now.year,'mailingList':mailingListLink})
+
+def learning(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/learning.html', {'year':now.year,'mailingList':mailingListLink})
