@@ -1,32 +1,58 @@
-#mid{
+#mid {
 	margin:0;
 	margin-top:2em;
 	margin-bottom:2em;
 }
-#sidebar{
+#sidebar {
 	border-left:1px #eee solid;
 }
-#footer{
+#footer {
 	text-align: center;
 	color:#999;
 	margin-top:2em;
 	margin-bottom:2em;
 }
-#content{
+#content {
 	padding-left:1em;
 	padding-right:1em;
 }
-.team-photo{
+.team-photo {
 	margin-top:1em;
 	margin-bottom:1em;
 	width:60%;
 }
-#learn-more{
+#learn-more {
 	display:none;
 }
-.card-img-top{
+.card-img-top {
 	width:100%;
 }
-.fa{
+.fa {
 	padding-right:1em;
 }
+
+/* Blinking Cursor CSS */
+
+.blink_text {
+	animation:1s blinker linear infinite;
+  -webkit-animation:1s blinker linear infinite;
+  -moz-animation:1s blinker linear infinite;
+}
+
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
