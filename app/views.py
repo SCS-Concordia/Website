@@ -26,6 +26,10 @@ def events(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/events.html', {'year':now.year})
 
+def contact(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/contact.html', {'year':now.year})
+
 def faq(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/faq.html', {'year':now.year,'mailingList':mailingListLink})
