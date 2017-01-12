@@ -49,12 +49,19 @@
 	background-color:#932439;
 	border-color:#932439;
 }
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:hover:active{
+.btn-primary:hover, .btn-primary:active, 
+.btn-primary:focus, .btn-primary:hover:active{
 	background-color:#7a1d2e;
 	border-color:#7a1d2e;
 }
 .no-bottom{
 	margin-bottom:0px;
+}
+.purple-link, .purple-link:visited, 
+.purple-link:hover, .purple-link:active, 
+.purple-link:hover:active, .purple-link:focus{
+	color:#932439;
+	text-decoration: none;
 }
 
 /* Blinking Cursor CSS */
