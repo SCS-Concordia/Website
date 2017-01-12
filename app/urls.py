@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^faq$', views.faq, name='faq'),
     url(r'^get-involved$', views.involved, name='get-involved'),
     url(r'^learning-packages$', views.learning, name='learning-packages'),
+    url(r'^contact-us$', views.contact, name='contact-us'),
 ]

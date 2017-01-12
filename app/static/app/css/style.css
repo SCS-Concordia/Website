@@ -30,6 +30,32 @@
 .fa {
 	padding-right:1em;
 }
+.right {
+	float:right;
+}
+.mobile-title {
+	font-size:1.5em;
+	color:#FFF;
+}
+.navbar{
+	border-radius:0px;
+	background-color:#932439;
+}
+.btn-outline-secondary:hover{
+	background-color:transparent;
+	border-color:#FFF;
+}
+.btn-primary{
+	background-color:#932439;
+	border-color:#932439;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:hover:active{
+	background-color:#7a1d2e;
+	border-color:#7a1d2e;
+}
+.no-bottom{
+	margin-bottom:0px;
+}
 
 /* Blinking Cursor CSS */
 
