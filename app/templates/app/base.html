@@ -34,17 +34,13 @@
 					<img src="{% static "images/scs.ico"%}" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS Concordia
 		    </a>
 		    <ul class="nav navbar-nav">
-					<li class="nav-item">
-		        <a class="nav-link" href="/">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/events">Events</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/get-involved">Get Involved</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/faq">FAQ</a>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+		        <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
+		          <a class="dropdown-item" href="/events">Information</a>
+		          <a class="dropdown-item" href="/calendar">Calendar</a>
+		          <a class="dropdown-item" href="/competitions">Competitions</a>
+		        </div>
 		      </li>
 		      <li class="nav-item dropdown">
 		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SCS Team</a>
@@ -53,6 +49,12 @@
 		          <a class="dropdown-item" href="/past-executives">Past Executives</a>
 		          <a class="dropdown-item" href="/contact-us">Contact Us</a>
 		        </div>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/faq">FAQ</a>
+		      </li>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/get-involved">Get Involved</a>
 		      </li>
 		    </ul>
 		    <form class="form-inline float-lg-right">
