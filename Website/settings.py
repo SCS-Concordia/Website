@@ -27,7 +27,7 @@ SECRET_KEY = '-!t7luq3(=+2(!wnng0)ilyy(xi*dv=s6=x$d25!v$07m#0-2$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["34.196.154.65", "scsconcordia.ca", "www.scsconcordia.ca", "localhost", "127.0.0.1"]
 
 
 # Application definition
