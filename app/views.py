@@ -26,6 +26,14 @@ def events(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/events.html', {'year':now.year})
 
+def calendar(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/calendar.html', {'year':now.year})
+
+def competitions(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/competitions.html', {'year':now.year})
+
 def past(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/past.html', {'year':now.year})
