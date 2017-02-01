@@ -71,6 +71,10 @@
 body{
 	word-break:break-word;
 }
+.package-content{
+	padding:0px;
+	margin:0px;
+}
 
 /* Blinking Cursor CSS */
 
