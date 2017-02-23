@@ -53,3 +53,7 @@ def involved(request):
 def learning(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/learning.html', {'year':now.year,'mailingList':mailingListLink})
+
+def unity(request):
+	now = datetime.datetime.now()
+	return render(request, 'app/packages/unity.html', {'year':now.year})
