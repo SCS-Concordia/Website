@@ -1,7 +1,88 @@
+.jumbotron {
+	padding: 0;
+}
+div.openButtonContainer {
+	width: 100%;
+	background-color: #111;
+}
+span.openSideMenu {
+	margin: 0 0 0 20px;
+	color: white;
+	font-size: 20px;
+	cursor:pointer;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 4px 8px;
+    text-decoration: none;
+
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a.menuItem {
+	padding: 8px 8px 4px 15px;
+	    font-size: 15px;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: black;
+    background-color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*
+div.sideMenu {
+	top: 0;
+	padding: 5% 0;
+	position: fixed;
+	float: left;
+	background-color: white;
+	width: 20%;
+	height: 100%;
+	z-index: -1;
+
+}
+li.sideMenuItem {
+	font-size: 15px;
+	padding: 10px;
+	margin: 0;
+}
+*/
 #content {
 	text-align: :center;
-	margin: 0 0;
-	padding: 0 0;
+	margin: 0;
+	padding: 0;
 	top: 0;
 	left: 0;
 }
@@ -29,11 +110,16 @@ div p.packageName {
 div.websiteLink {
 	text-align: center;
 }
-
-div.useImages {
-	box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-	-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-	-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+div.intoImages {
+	width: 50%;
+    margin: 0 auto; 
+}
+img.useImages {
+	margin: 0 40px
+	box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
 }
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
