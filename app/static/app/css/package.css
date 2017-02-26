@@ -24,7 +24,6 @@ span.openSideMenu {
     padding-top: 60px;
 
 }
-
 .sidenav a {
     padding: 8px 8px 4px 8px;
     text-decoration: none;
@@ -59,26 +58,28 @@ span.openSideMenu {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-
-/*
-div.sideMenu {
-	top: 0;
-	padding: 5% 0;
-	position: fixed;
-	float: left;
-	background-color: white;
-	width: 20%;
-	height: 100%;
-	z-index: -1;
-
+pre.codeBlock {
+    margin: 1000px;
+    border: 1px solid black;
 }
-li.sideMenuItem {
-	font-size: 15px;
-	padding: 10px;
-	margin: 0;
+pre code {
+    background-color: #eee;
+    border: 1px solid black;
+    display: block;
+    padding: 20px;
+}  
+button.downloadScript {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-*/
 #content {
 	text-align: :center;
 	margin: 0;
