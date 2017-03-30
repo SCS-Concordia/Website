@@ -14,4 +14,5 @@ urlpatterns = [
     url(r'^get-involved$', views.involved, name='get-involved'),
     url(r'^learning-packages$', views.learning, name='learning-packages'),
     url(r'^contact-us$', views.contact, name='contact-us'),
+    url(r'^sponsorship/16-17$', views.sponsorship1617, name='sponsorship/16-17'),
 ]

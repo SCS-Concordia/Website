@@ -18,6 +18,15 @@ def constitution(request):
 			response['Content-Disposition'] = 'filename=constitution.pdf'
 			return response
 
+def sponsorship1617(request):
+	BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+	location = os.path.join(BASE_DIR, 'app', 'static', 'app', 'documents', 'sponsorship.pdf')
+	with open(location, 'rb') as pdf:
+			response = HttpResponse(
+				pdf.read(), content_type='application/pdf')
+			response['Content-Disposition'] = 'filename=sponsorship.pdf'
+			return response
+
 def current(request):
 	now = datetime.datetime.now()
 	return render(request, 'app/current.html', {'year':now.year})
