@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	  <!-- Bootstrap CSS -->
+	  
+	  <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="/static/css/style.css" />
+	  <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+	  <title>Past Executives</title>
+	  <link rel="shortcut icon" href="/static/images/favicon.ico"/>
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<nav class="navbar navbar-dark bg-faded">
+			<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
+			<a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
+		  <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+		  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+				
+				<a class="navbar-brand hidden-md-down" href="/">
+					<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS Concordia
+		    </a>
+		    <ul class="nav navbar-nav">
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+		        <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
+		          <a class="dropdown-item" href="/events">Information</a>
+		          <a class="dropdown-item" href="/calendar">Calendar</a>
+		          <a class="dropdown-item" href="/competitions">Competitions</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SCS Team</a>
+		        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+		          <a class="dropdown-item" href="/current-executives">Current Executives</a>
+		          <a class="dropdown-item" href="/past-executives">Past Executives</a>
+		          <a class="dropdown-item" href="/contact-us">Contact Us</a>
+		        </div>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/faq">FAQ</a>
+		      </li>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/get-involved">Get Involved</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline float-lg-right">
+		      <a href="/learning-packages" class="btn btn-outline-secondary">Learning Packages</a>
+		    	<a href="http://algotime.scsconcordia.ca" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
+		    </form>
+		    
+		  </div>
+		</nav>
+
+		<div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
+		  <div id="content" class="col-sm-12 col-md-9">
+		    
+
+<div class="jumbotron" style="padding-top:2em">
+	
+  <h3>SCS Past Executives</h3><br>
+
+  <div id="accordion" role="tablist" aria-multiselectable="true">
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingOne">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseOne">
+	          Year 2015 - 2016
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Natacha Gabbamonte<br>
+	        <strong>VP Academic:</strong> Nicole Cappadocia-Assaly<br>
+	        <strong>VP Communications:</strong> Alex Dussault<br>
+	        <strong>VP Competition:</strong> Amine Mhedbi<br>
+	        <strong>VP Finance:</strong> Mohamed Abdelbaky<br>
+	        <strong>VP Internal:</strong> Javier E. Fajardo<br>
+	        <strong>VP Projects:</strong> Elias Haroun<br>
+	        <strong>VP Social:</strong> Reza Madabadi<br></p>
+	        <hr><p>
+	        <strong>Director Academic:</strong> Thinesh Thuraisingam<br>
+					<strong>Director Communications:</strong> Gen Brisebois<br>
+					<strong>Director Marketing:</strong> Syrine Krim<br>
+					<strong>Director Projects:</strong> Amir Bawab<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingTwo">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseTwo">
+	          Year 2014 - 2015
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Geneviève Chafouleas<br>
+	        <strong>VP Academic:</strong> Natacha Gabbamonte<br>
+	        <strong>VP Communications:</strong> Alex Dussault<br>
+	        <strong>VP Competition:</strong> Dave Gurnsey<br>
+	        <strong>VP Finance:</strong> Amine Mhedhbi<br>
+	        <strong>VP Internal:</strong> Javier E. Fajardo<br>
+	        <strong>VP Projects:</strong> Gabriel Gheorghian<br>
+	        <strong>VP Social:</strong> Patrick Nguyen<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingThree">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseThree">
+	          Year 2013 - 2014
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Josh Whatley<br>
+	        <strong>VP Academic:</strong> Sam Assaf<br>
+	        <strong>VP Communications:</strong> Sophia Thomas<br>
+	        <strong>VP Competition:</strong> Geneviève Chafouleas<br>
+	        <strong>VP Finance:</strong> Rami Kuret<br>
+	        <strong>VP Internal:</strong> Anas Ambri<br>
+	        <strong>VP Projects:</strong> Amine Mhedhbi<br>
+	        <strong>VP Social:</strong> Patrick Nguyen<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingFour">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseFour">
+	          Year 2012 - 2013
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseFour" class="collapse show" role="tabpanel" aria-labelledby="headingFour">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Yoni Levi<br>
+	        <strong>VP Academic:</strong> Ramez Dabbas<br>
+	        <strong>VP Communications:</strong> Amine Mhedbi<br>
+	        <strong>VP Competition:</strong> Josh Whatley<br>
+	        <strong>VP Finance:</strong> Tomas Valettini<br>
+	        <strong>VP Marketing:</strong> Rami Kuret<br>
+	        <strong>VP Projects:</strong> Anas Ambri<br>
+	        <strong>VP Social:</strong> Deven Collette<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingFive">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseFive">
+	          Year 2011 - 2012
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseFive" class="collapse show" role="tabpanel" aria-labelledby="headingFive">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Sydney Swaine-Simon<br>
+	        <strong>VP Academic:</strong> Siddartha Kattohu<br>
+	        <strong>VP Communications:</strong> Yoni Levi<br>
+	        <strong>VP Competition:</strong> Josh Whatley<br>
+	        <strong>VP Finance:</strong> Anas Ambri<br>
+	        <strong>VP Marketing:</strong> Sophia Thomas<br>
+	        <strong>VP Projects:</strong> Sagar Patel<br>
+	        <strong>VP Social:</strong> Daniel Ricci<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingSix">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseSix">
+	          Year 2010 - 2011
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseSix" class="collapse show" role="tabpanel" aria-labelledby="headingSix">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Alexi Ionesu<br>
+	        <strong>VP Academic:</strong> Sydney Swaine-Simon<br>
+	        <strong>VP Communications:</strong> Yoni Levi<br>
+	        <strong>VP Finance:</strong> Mathieu Dumas Savard<br>
+	        <strong>VP Marketing:</strong> Sophia Thomas<br>
+	        <strong>VP Social:</strong> Siddartha Kattohu<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingSeven">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseSeven">
+	          Year 2009 - 2010
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseSeven" class="collapse show" role="tabpanel" aria-labelledby="headingSeven">
+	      <div class="card-block">
+	        <p>
+	        <strong>President:</strong> Kyle Sama<br>
+	        <strong>VP Academic:</strong> Henk Boom<br>
+	        <strong>VP Finance:</strong> Matt Gallant<br>
+	        <strong>VP Marketing:</strong> Sandy Woo<br>
+	        <strong>VP Social:</strong> Yoni Levi<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="card no-bottom">
+	    <div class="card-header" role="tab" id="headingEight">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" class="purple-link"
+	        aria-expanded="true" aria-controls="collapseEight">
+	          Year 2008 - 2009
+	        </a>
+	      </h5>
+	    </div>
+
+	    <div id="collapseEight" class="collapse show" role="tabpanel" aria-labelledby="headingEight">
+	      <div class="card-block">
+	        <p>
+	        <strong>Founder:</strong> Erik Miller<br>
+					</p>
+	      </div>
+	    </div>
+	  </div>
+	  
+	</div>
+</div>
+
+
+			  <div id="footer">
+			  	<hr>
+			  	Copyright &copy; 2017 SCS Concordia
+			  </div>
+		  </div>
+		  <div id="sidebar" class="hidden-sm-down col-md-3">
+		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
+		  	<a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/scsconcordia">Tweets by scsconcordia</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  </div>
+	  </div>
+
+	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="/static/bootstrap4/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+	</body>
+</html>

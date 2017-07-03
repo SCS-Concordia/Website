@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	  <!-- Bootstrap CSS -->
+	  
+	  <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="/static/css/style.css" />
+	  <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+	  <title>Competitions</title>
+	  <link rel="shortcut icon" href="/static/images/favicon.ico"/>
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<nav class="navbar navbar-dark bg-faded">
+			<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
+			<a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
+		  <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+		  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+				
+				<a class="navbar-brand hidden-md-down" href="/">
+					<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS Concordia
+		    </a>
+		    <ul class="nav navbar-nav">
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+		        <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
+		          <a class="dropdown-item" href="/events">Information</a>
+		          <a class="dropdown-item" href="/calendar">Calendar</a>
+		          <a class="dropdown-item" href="/competitions">Competitions</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SCS Team</a>
+		        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+		          <a class="dropdown-item" href="/current-executives">Current Executives</a>
+		          <a class="dropdown-item" href="/past-executives">Past Executives</a>
+		          <a class="dropdown-item" href="/contact-us">Contact Us</a>
+		        </div>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/faq">FAQ</a>
+		      </li>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/get-involved">Get Involved</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline float-lg-right">
+		      <a href="/learning-packages" class="btn btn-outline-secondary">Learning Packages</a>
+		    	<a href="http://algotime.scsconcordia.ca" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
+		    </form>
+		    
+		  </div>
+		</nav>
+
+		<div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
+		  <div id="content" class="col-sm-12 col-md-9">
+		    
+
+
+<div class="jumbotron" style="padding-top:2em">
+  <h3>CS Games</h3><br>
+  <p><a href="http://csgames.org/corpo/" target="_blank">CS Games</a> is a programming competition that takes place once a year over an 
+  entire weekend. There are over 20 teams that participate from all over Canada and the northeastern US. 
+  Challenges include Artificial Intelligence, Operating Systems, Debugging, Algorithms and more. During 
+  the months leading up to CS Games, SCS holds a number of tryouts to scope out Concordia’s most talented 
+  programmers and build the strongest possible team to send to the competition.</p>
+  <h4>CS Games 2016 – March 11-13, 2016 @ UQAM</h4>
+  <p>Congratulations to Concordia who placed 4th overall out of 30 teams!</p>
+  <p>Concordia placed in the top 3 for the following competitions:</p>
+  <ul>
+    <li>Extreme Programming – 1st Place</li>
+    <li>Relay Programming – 1st Place</li>
+    <li>Mobile Development – 3rd Place</li>
+    <li>Participation – 1st Place</li>
+  </ul>
+  <img class="event-header" src="/static/images/csgamesheader.jpg" alt="csgames"><br>
+  <p>Photo Credit: Hao Yin of<a href="https://www.facebook.com/VoltaicPhoto/" target="_blank">Voltaic Photo</a></p><br>
+  <h3>IEEEXtreme</h3>
+  <p><a href="http://www.ieee.org/membership_services/membership/students/competitions/xtreme/index.html" target="_blank">
+  IEEEXtreme</a> is a 24-hour, worldwide, online coding 
+  competition that challenges teams of 3 people to solve a set of programming problems. It begins at 00:00 
+  UTC all around the world, which is 8:00PM Montreal time. SCS, in collaboration with 
+  <a href="http://ieee.concordia.ca/" target="_blank">IEEE Concordia</a>, sends some of its most skilled 
+  and dedicated programmers to represent Concordia at the event.
+  <h4>IEEEXtreme 10.0 – October 21-22, 2016 @ ETS</h4>
+  <p>Congratulations to Concordia’s participants on an excellent showing at the 2016 competition!</p>
+  <img class="event-header" src="/static/images/ieeeheader.jpg" alt="ieee"><br>
+  <p>Photo Credit: <a href="https://www.facebook.com/dciets/?ref=page_internal" target="_blank">
+  DCI – Délégation des compétitions en informatique de l’ÉTS</a></p>
+  <p>For more information on competitions, you can contact our VP Competitions at 
+  <a href="mailto:competitions.scs@ecaconcordia.ca" target="_blank">competitions.scs@ecaconcordia.ca</a>.</p>
+
+</div>
+
+
+			  <div id="footer">
+			  	<hr>
+			  	Copyright &copy; 2017 SCS Concordia
+			  </div>
+		  </div>
+		  <div id="sidebar" class="hidden-sm-down col-md-3">
+		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
+		  	<a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/scsconcordia">Tweets by scsconcordia</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  </div>
+	  </div>
+
+	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="/static/bootstrap4/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+	</body>
+</html>
