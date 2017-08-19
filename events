@@ -59,7 +59,7 @@
 		    </ul>
 		    <form class="form-inline float-lg-right">
 		      <a href="/learning-packages" class="btn btn-outline-secondary">Learning Packages</a>
-		    	<a href="http://algotime.scsconcordia.ca" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
+		    	<a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
 		    </form>
 		    
 		  </div>
@@ -100,18 +100,17 @@
 	<p>This event will help you sharpen your problem solving skills and prepare you for coding questions 
 	that you will see during job interviews! So, come practice your skills with us and also have some fun! 
 	All skill levels are welcome, and volunteers will be there to help if you need it!</p>
-	<p>For more information, visit the Algorithm Time Facebook page or contact our VP Projects at 
+	<p>For more information, visit the <a href="https://www.facebook.com/algorithm.time/" target="_blank">Algorithm Time Facebook page</a> or contact our VP Projects at 
 	<a href="mailto:projects.scs@ecaconcordia.ca" target="_blank">projects.scs@ecaconcordia.ca</a>.</p><br>
 
-  <h3>SOEN/COEN/ELEC/COMP Clothing Sale!</h3><br>
+  <h3>SOEN/COEN/ELEC/COMP Clothing Sale</h3><br>
   <img class="event-header" src="/static/images/clothingheader.png" alt="clothes"><br><br>
   <p>It’s happening! SCS has some hot new clothing items for SOEN, COEN, ELEC, and CompSci students!</p>
   <p>We’ll be selling hoodies and crewnecks tailored to each program, as well as the SCS “Code-Blooded” 
   t-shirts first introduced by the SCS executives!</p>
-  <p>We are no longer taking clothing orders at the moment, but stay tuned as we might sell again next 
-  semester! For those that placed an order, we’ll be distributing your purchases to you on campus in January.</p><br>
+  <p>Please see our <a href="/calendar">calendar</a> and stay tuned on Facebook for the dates of the next sale.</p><br>
 
-	<h3>Lizzard Lounge</h3>
+	<h3>Lizard Lounge</h3>
 	<p>Lizard Lounge is a weekly social event hosted by a different ECA society each week. Every semester,
 	 SCS hosts one edition of this event, and it is not to be missed. Come hang out with awesome people 
 	 and make new friends, complete with drinks, snacks, games, and more!</p>
@@ -127,8 +126,7 @@
 			  </div>
 		  </div>
 		  <div id="sidebar" class="hidden-sm-down col-md-3">
-		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
-		  	<a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/scsconcordia">Tweets by scsconcordia</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
 		  </div>
 	  </div>
 

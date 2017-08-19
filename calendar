@@ -59,7 +59,7 @@
 		    </ul>
 		    <form class="form-inline float-lg-right">
 		      <a href="/learning-packages" class="btn btn-outline-secondary">Learning Packages</a>
-		    	<a href="http://algotime.scsconcordia.ca" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
+		    	<a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
 		    </form>
 		    
 		  </div>
@@ -78,8 +78,7 @@
 			  </div>
 		  </div>
 		  <div id="sidebar" class="hidden-sm-down col-md-3">
-		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
-		  	<a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/scsconcordia">Tweets by scsconcordia</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
 		  </div>
 	  </div>
 
