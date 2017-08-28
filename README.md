@@ -1,4 +1,4 @@
-## SCS Concordia Website (http://scsconcordia.ca)
+## SCS Concordia Website (http://scsconcordia.com)
 ### Requirements
 * Python 2.7 (Python 3 is coming if someone fixes the [issue](https://github.com/SCS-Concordia/Website/issues/5)) Available at https://www.python.org/downloads/
 * Django availabe through pip instructions can be found [here](https://www.djangoproject.com/download/)
