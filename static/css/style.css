@@ -76,6 +76,11 @@ body{
 	margin:0px;
 }
 
+.empty-card{
+	background:transparent;
+	border:none;
+}
+
 /* Blinking Cursor CSS */
 
 .blink_text {
