@@ -1,373 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	  <!-- Bootstrap CSS -->
-	  
-	  <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="/static/css/style.css" />
-	  <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
-	  <title>Past Executives</title>
-	  <link rel="shortcut icon" href="/static/images/favicon.ico"/>
-	</head>
+    <!-- Bootstrap CSS -->
 
-	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-		<nav class="navbar navbar-dark bg-faded">
-			<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
-			<a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
-		  <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-		  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-				
-				<a class="navbar-brand hidden-md-down" href="/">
-					<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS Concordia
-		    </a>
-		    <ul class="nav navbar-nav">
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-		        <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
-		          <a class="dropdown-item" href="/events">Information</a>
-		          <a class="dropdown-item" href="/calendar">Calendar</a>
-		          <a class="dropdown-item" href="/competitions">Competitions</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SCS Team</a>
-		        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-		          <a class="dropdown-item" href="/current-executives">Current Executives</a>
-		          <a class="dropdown-item" href="/past-executives">Past Executives</a>
-		          <a class="dropdown-item" href="/contact-us">Contact Us</a>
-		        </div>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/faq">FAQ</a>
-		      </li>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/get-involved">Get Involved</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/sponsors">Sponsors</a>
-		      </li>
-		    </ul>
-		    <form class="form-inline float-lg-right">
-                <a href="/static/documents/clothing-sale-form-winter-2018.pdf" class="btn btn-outline-secondary" download="clothing-sale-form-winter-2018.pdf">Clothing Sale Form</a>
-		    	<a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
-		    </form>
-		    
-		  </div>
-		</nav>
+    <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+    <title>Past Executives</title>
+    <link rel="shortcut icon" href="/static/images/favicon.ico"/>
+</head>
 
-		<div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
-		  <div id="content" class="col-sm-12 col-md-9">
-		    
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <nav class="navbar navbar-dark bg-faded">
+        <img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
+        <a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
+        <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
 
-<div class="jumbotron" style="padding-top:2em">
-	
-  <h3>SCS Past Executives</h3><br>
+            <a class="navbar-brand hidden-md-down" href="/">
+                <img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS
+                Concordia
+            </a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Events</a>
+                    <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
+                        <a class="dropdown-item" href="/events">Information</a>
+                        <a class="dropdown-item" href="/calendar">Calendar</a>
+                        <a class="dropdown-item" href="/competitions">Competitions</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">SCS Team</a>
+                    <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+                        <a class="dropdown-item" href="/current-executives">Current Executives</a>
+                        <a class="dropdown-item" href="/past-executives">Past Executives</a>
+                        <a class="dropdown-item" href="/contact-us">Contact Us</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/faq">FAQ</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/get-involved">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sponsors">Sponsors</a>
+                </li>
+            </ul>
+            <form class="form-inline float-lg-right">
+                <a href="/static/documents/clothing-sale-form-winter-2018.pdf" class="btn btn-outline-secondary"
+                   download="clothing-sale-form-winter-2018.pdf">Clothing Sale Form</a>
+                <a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm
+                    Time</a>
+            </form>
 
-  <div id="accordion" role="tablist" aria-multiselectable="true">
-        <div class="card no-bottom">
-          <div class="card-header" role="tab" id="heading2017">
-              <h5 class="mb-0">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2017" class="purple-link"
-                     aria-expanded="true" aria-controls="collapse2017">
-                      Year 2017 - 2018
-                  </a>
-              </h5>
-          </div>
+        </div>
+    </nav>
 
-          <div id="collapse2017" class="collapse show" role="tabpanel" aria-labelledby="heading2017">
-              <div class="card-block">
-                  <p>
-                      <strong>President:</strong> Tobi Décary-Larocque<br>
-                      <strong>VP Academic:</strong> Erin Benderoff<br>
-                      <strong>VP Communications:</strong> Samantha Kerr<br>
-                      <strong>VP Competitions:</strong> Arielle Evans &amp; Lance Lafontaine<br>
-                      <strong>VP Finance:</strong> Christina Nguyen<br>
-                      <strong>VP Internal:</strong> Adam Galati<br>
-                      <strong>VP Projects:</strong> Alex Frappier Lachapelle<br>
-                      <strong>VP Social:</strong> Darrin Fong<br></p>
-                  <hr><p>
-                  <strong>Director Academic:</strong> Sharon Ho<br>
-                  <strong>Director Communications:</strong> Karen Bie &amp; Yun Shi Lin<br>
-                  <strong>Director Competitions:</strong> Jacob Gagné &amp; Lori Dalkin<br>
-                  <strong>Director Social:</strong> Frankie Valela &amp; Avery Singh<br>
-                  <strong>Director Finance:</strong> Joshua Butler<br>
-                  <strong>Director Projects:</strong> Brendan McGarry<br>
-                  <strong>First-Year Rep for CS:</strong> Charles-Antoine Guité<br>
-                  <strong>First-Year Rep for SOEN:</strong> Leena Nguyen<br>
-                  <strong>First-Year Rep for COEN:</strong> Michael Oiknine<br>
-              </p>
-              </div>
-          </div>
-      </div>
-      <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2016">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2016" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2016">
-	          Year 2016 - 2017
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2016" class="collapse show" role="tabpanel" aria-labelledby="heading2016">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Nicole Cappadocia-Assaly<br>
-	        <strong>VP Academic:</strong> Thinesh Thuraisingam<br>
-	        <strong>VP Communications:</strong> Erin Benderoff<br>
-	        <strong>VP Competitions:</strong> Javier E. Fajardo<br>
-	        <strong>VP Finance:</strong> Brendan McGarry<br>
-	        <strong>VP Internal:</strong> Tobi Décary-Larocque<br>
-	        <strong>VP Projects:</strong> Jacob Gagné<br>
-	        <strong>VP Social:</strong> Frankie Valela<br></p>
-	        <hr><p>
-	        <strong>Director Academic:</strong> Nicholas Sabelli<br>
-			<strong>Director Communications:</strong> Samantha Kerr &amp; Lori Dalkin<br>
-			<strong>Director CS Games:</strong> Bryce Drewery Schoeler<br>
-			<strong>Director Competitions:</strong> Alexis Grondin<br>
-			<strong>Director Social:</strong> Gen Brisebois<br>
-			<strong>Director Sponsorship:</strong> Adam Galati<br>
-			<strong>Director Projects:</strong> Arielle Evans<br>
-			<strong>Director Tutorials:</strong> Vineet Koppalkar<br>
-			<strong>First-Year Rep for CS:</strong> Andres Hernandez<br>
-			<strong>First-Year Rep for SOEN:</strong> Ribal Aladeeb<br>
-			<strong>Chair Emeritus:</strong> Natacha Gabbamonte<br>
-			</p>
-	      </div>
-	    </div>
-	  </div>
-	  
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2015">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2015" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2015">
-	          Year 2015 - 2016
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2015" class="collapse show" role="tabpanel" aria-labelledby="heading2015">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Natacha Gabbamonte<br>
-	        <strong>VP Academic:</strong> Nicole Cappadocia-Assaly<br>
-	        <strong>VP Communications:</strong> Alex Dussault<br>
-	        <strong>VP Competitions:</strong> Amine Mhedbi<br>
-	        <strong>VP Finance:</strong> Mohamed Abdelbaky<br>
-	        <strong>VP Internal:</strong> Javier E. Fajardo<br>
-	        <strong>VP Projects:</strong> Elias Haroun<br>
-	        <strong>VP Social:</strong> Reza Madabadi<br></p>
-	        <hr><p>
-	        <strong>Director Academic:</strong> Thinesh Thuraisingam<br>
-					<strong>Director Communications:</strong> Gen Brisebois<br>
-					<strong>Director Marketing:</strong> Syrine Krim<br>
-					<strong>Director Projects:</strong> Amir Bawab<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2014">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2014" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2014">
-	          Year 2014 - 2015
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2014" class="collapse show" role="tabpanel" aria-labelledby="heading2014">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Geneviève Chafouleas<br>
-	        <strong>VP Academic:</strong> Natacha Gabbamonte<br>
-	        <strong>VP Communications:</strong> Alex Dussault<br>
-	        <strong>VP Competitions:</strong> Dave Gurnsey<br>
-	        <strong>VP Finance:</strong> Amine Mhedhbi<br>
-	        <strong>VP Internal:</strong> Javier E. Fajardo<br>
-	        <strong>VP Projects:</strong> Gabriel Gheorghian<br>
-	        <strong>VP Social:</strong> Patrick Nguyen<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2013">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2013" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2013">
-	          Year 2013 - 2014
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2013" class="collapse show" role="tabpanel" aria-labelledby="heading2013">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Josh Whatley<br>
-	        <strong>VP Academic:</strong> Sam Assaf<br>
-	        <strong>VP Communications:</strong> Sophia Thomas<br>
-	        <strong>VP Competitions:</strong> Geneviève Chafouleas<br>
-	        <strong>VP Finance:</strong> Rami Kuret<br>
-	        <strong>VP Internal:</strong> Anas Ambri<br>
-	        <strong>VP Projects:</strong> Amine Mhedhbi<br>
-	        <strong>VP Social:</strong> Patrick Nguyen<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2012">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2012" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2012">
-	          Year 2012 - 2013
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2012" class="collapse show" role="tabpanel" aria-labelledby="heading2012">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Yoni Levi<br>
-	        <strong>VP Academic:</strong> Ramez Dabbas<br>
-	        <strong>VP Communications:</strong> Amine Mhedbi<br>
-	        <strong>VP Competitions:</strong> Josh Whatley<br>
-	        <strong>VP Finance:</strong> Tomas Valettini<br>
-	        <strong>VP Marketing:</strong> Rami Kuret<br>
-	        <strong>VP Projects:</strong> Anas Ambri<br>
-	        <strong>VP Social:</strong> Deven Collette<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2011">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2011" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2011">
-	          Year 2011 - 2012
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2011" class="collapse show" role="tabpanel" aria-labelledby="heading2011">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Sydney Swaine-Simon<br>
-	        <strong>VP Academic:</strong> Siddartha Kattohu<br>
-	        <strong>VP Communications:</strong> Yoni Levi<br>
-	        <strong>VP Competitions:</strong> Josh Whatley<br>
-	        <strong>VP Finance:</strong> Anas Ambri<br>
-	        <strong>VP Marketing:</strong> Sophia Thomas<br>
-	        <strong>VP Projects:</strong> Sagar Patel<br>
-	        <strong>VP Social:</strong> Daniel Ricci<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2010">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2010" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2010">
-	          Year 2010 - 2011
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2010" class="collapse show" role="tabpanel" aria-labelledby="heading2010">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Alexi Ionesu<br>
-	        <strong>VP Academic:</strong> Sydney Swaine-Simon<br>
-	        <strong>VP Communications:</strong> Yoni Levi<br>
-	        <strong>VP Finance:</strong> Mathieu Dumas Savard<br>
-	        <strong>VP Marketing:</strong> Sophia Thomas<br>
-	        <strong>VP Social:</strong> Siddartha Kattohu<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2009">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2009" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2009">
-	          Year 2009 - 2010
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2009" class="collapse show" role="tabpanel" aria-labelledby="heading2009">
-	      <div class="card-block">
-	        <p>
-	        <strong>President:</strong> Kyle Sama<br>
-	        <strong>VP Academic:</strong> Henk Boom<br>
-	        <strong>VP Finance:</strong> Matt Gallant<br>
-	        <strong>VP Marketing:</strong> Sandy Woo<br>
-	        <strong>VP Social:</strong> Yoni Levi<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-	  
-	  <div class="card no-bottom">
-	    <div class="card-header" role="tab" id="heading2008">
-	      <h5 class="mb-0">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2008" class="purple-link"
-	        aria-expanded="true" aria-controls="collapse2008">
-	          Year 2008 - 2009
-	        </a>
-	      </h5>
-	    </div>
-
-	    <div id="collapse2008" class="collapse show" role="tabpanel" aria-labelledby="heading2008">
-	      <div class="card-block">
-	        <p>
-	        <strong>Founder:</strong> Erik Miller<br>
-					</p>
-	      </div>
-	    </div>
-	  </div>
-	  
-	</div>
-</div>
+    <div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
+        <div id="content" class="col-sm-12 col-md-9">
 
 
-			  <div id="footer">
-			  	<hr>
-			  	Copyright &copy; 2018 SCS Concordia
-			  </div>
-		  </div>
-		  <div id="sidebar" class="hidden-sm-down col-md-3">
-		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
-		  </div>
-	  </div>
+            <div class="jumbotron" style="padding-top:2em">
 
-	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="/static/bootstrap4/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-	</body>
+                <h3>SCS Past Executives</h3><br>
+
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2017">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2017" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2017">
+                                    Year 2017 - 2018
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2017" class="collapse show" role="tabpanel" aria-labelledby="heading2017">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Tobi Décary-Larocque<br>
+                                    <strong>VP Academic:</strong> Erin Benderoff<br>
+                                    <strong>VP Communications:</strong> Samantha Kerr<br>
+                                    <strong>VP Competitions:</strong> Arielle Evans &amp; Lance Lafontaine<br>
+                                    <strong>VP Finance:</strong> Christina Nguyen<br>
+                                    <strong>VP Internal:</strong> Adam Galati<br>
+                                    <strong>VP Projects:</strong> Alex Frappier Lachapelle<br>
+                                    <strong>VP Social:</strong> Darrin Fong<br></p>
+                                <hr>
+                                <p>
+                                    <strong>Director Academic:</strong> Sharon Ho<br>
+                                    <strong>Director Communications:</strong> Karen Bie &amp; Yun Shi Lin<br>
+                                    <strong>Director Competitions:</strong> Jacob Gagné &amp; Lori Dalkin<br>
+                                    <strong>Director Social:</strong> Frankie Valela &amp; Avery Singh<br>
+                                    <strong>Director Finance:</strong> Joshua Butler<br>
+                                    <strong>Director Projects:</strong> Brendan McGarry<br>
+                                    <strong>First-Year Rep for CS:</strong> Charles-Antoine Guité<br>
+                                    <strong>First-Year Rep for SOEN:</strong> Leena Nguyen<br>
+                                    <strong>First-Year Rep for COEN:</strong> Michael Oiknine<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2016">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2016" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2016">
+                                    Year 2016 - 2017
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2016" class="collapse show" role="tabpanel" aria-labelledby="heading2016">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Nicole Cappadocia-Assaly<br>
+                                    <strong>VP Academic:</strong> Thinesh Thuraisingam<br>
+                                    <strong>VP Communications:</strong> Erin Benderoff<br>
+                                    <strong>VP Competitions:</strong> Javier E. Fajardo<br>
+                                    <strong>VP Finance:</strong> Brendan McGarry<br>
+                                    <strong>VP Internal:</strong> Tobi Décary-Larocque<br>
+                                    <strong>VP Projects:</strong> Jacob Gagné<br>
+                                    <strong>VP Social:</strong> Frankie Valela<br></p>
+                                <hr>
+                                <p>
+                                    <strong>Director Academic:</strong> Nicholas Sabelli<br>
+                                    <strong>Director Communications:</strong> Samantha Kerr &amp; Lori Dalkin<br>
+                                    <strong>Director CS Games:</strong> Bryce Drewery Schoeler<br>
+                                    <strong>Director Competitions:</strong> Alexis Grondin<br>
+                                    <strong>Director Social:</strong> Gen Brisebois<br>
+                                    <strong>Director Sponsorship:</strong> Adam Galati<br>
+                                    <strong>Director Projects:</strong> Arielle Evans<br>
+                                    <strong>Director Tutorials:</strong> Vineet Koppalkar<br>
+                                    <strong>First-Year Rep for CS:</strong> Andres Hernandez<br>
+                                    <strong>First-Year Rep for SOEN:</strong> Ribal Aladeeb<br>
+                                    <strong>Chair Emeritus:</strong> Natacha Gabbamonte<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2015">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2015" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2015">
+                                    Year 2015 - 2016
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2015" class="collapse show" role="tabpanel" aria-labelledby="heading2015">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Natacha Gabbamonte<br>
+                                    <strong>VP Academic:</strong> Nicole Cappadocia-Assaly<br>
+                                    <strong>VP Communications:</strong> Alex Dussault<br>
+                                    <strong>VP Competitions:</strong> Amine Mhedbi<br>
+                                    <strong>VP Finance:</strong> Mohamed Abdelbaky<br>
+                                    <strong>VP Internal:</strong> Javier E. Fajardo<br>
+                                    <strong>VP Projects:</strong> Elias Haroun<br>
+                                    <strong>VP Social:</strong> Reza Madabadi<br></p>
+                                <hr>
+                                <p>
+                                    <strong>Director Academic:</strong> Thinesh Thuraisingam<br>
+                                    <strong>Director Communications:</strong> Gen Brisebois<br>
+                                    <strong>Director Marketing:</strong> Syrine Krim<br>
+                                    <strong>Director Projects:</strong> Amir Bawab<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2014">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2014" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2014">
+                                    Year 2014 - 2015
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2014" class="collapse show" role="tabpanel" aria-labelledby="heading2014">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Geneviève Chafouleas<br>
+                                    <strong>VP Academic:</strong> Natacha Gabbamonte<br>
+                                    <strong>VP Communications:</strong> Alex Dussault<br>
+                                    <strong>VP Competitions:</strong> Dave Gurnsey<br>
+                                    <strong>VP Finance:</strong> Amine Mhedhbi<br>
+                                    <strong>VP Internal:</strong> Javier E. Fajardo<br>
+                                    <strong>VP Projects:</strong> Gabriel Gheorghian<br>
+                                    <strong>VP Social:</strong> Patrick Nguyen<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2013">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2013" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2013">
+                                    Year 2013 - 2014
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2013" class="collapse show" role="tabpanel" aria-labelledby="heading2013">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Josh Whatley<br>
+                                    <strong>VP Academic:</strong> Sam Assaf<br>
+                                    <strong>VP Communications:</strong> Sophia Thomas<br>
+                                    <strong>VP Competitions:</strong> Geneviève Chafouleas<br>
+                                    <strong>VP Finance:</strong> Rami Kuret<br>
+                                    <strong>VP Internal:</strong> Anas Ambri<br>
+                                    <strong>VP Projects:</strong> Amine Mhedhbi<br>
+                                    <strong>VP Social:</strong> Patrick Nguyen<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2012">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2012" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2012">
+                                    Year 2012 - 2013
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2012" class="collapse show" role="tabpanel" aria-labelledby="heading2012">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Yoni Levi<br>
+                                    <strong>VP Academic:</strong> Ramez Dabbas<br>
+                                    <strong>VP Communications:</strong> Amine Mhedbi<br>
+                                    <strong>VP Competitions:</strong> Josh Whatley<br>
+                                    <strong>VP Finance:</strong> Tomas Valettini<br>
+                                    <strong>VP Marketing:</strong> Rami Kuret<br>
+                                    <strong>VP Projects:</strong> Anas Ambri<br>
+                                    <strong>VP Social:</strong> Deven Collette<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2011">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2011" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2011">
+                                    Year 2011 - 2012
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2011" class="collapse show" role="tabpanel" aria-labelledby="heading2011">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Sydney Swaine-Simon<br>
+                                    <strong>VP Academic:</strong> Siddartha Kattohu<br>
+                                    <strong>VP Communications:</strong> Yoni Levi<br>
+                                    <strong>VP Competitions:</strong> Josh Whatley<br>
+                                    <strong>VP Finance:</strong> Anas Ambri<br>
+                                    <strong>VP Marketing:</strong> Sophia Thomas<br>
+                                    <strong>VP Projects:</strong> Sagar Patel<br>
+                                    <strong>VP Social:</strong> Daniel Ricci<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2010">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2010" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2010">
+                                    Year 2010 - 2011
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2010" class="collapse show" role="tabpanel" aria-labelledby="heading2010">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Alexi Ionesu<br>
+                                    <strong>VP Academic:</strong> Sydney Swaine-Simon<br>
+                                    <strong>VP Communications:</strong> Yoni Levi<br>
+                                    <strong>VP Finance:</strong> Mathieu Dumas Savard<br>
+                                    <strong>VP Marketing:</strong> Sophia Thomas<br>
+                                    <strong>VP Social:</strong> Siddartha Kattohu<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2009">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2009" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2009">
+                                    Year 2009 - 2010
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2009" class="collapse show" role="tabpanel" aria-labelledby="heading2009">
+                            <div class="card-block">
+                                <p>
+                                    <strong>President:</strong> Kyle Sama<br>
+                                    <strong>VP Academic:</strong> Henk Boom<br>
+                                    <strong>VP Finance:</strong> Matt Gallant<br>
+                                    <strong>VP Marketing:</strong> Sandy Woo<br>
+                                    <strong>VP Social:</strong> Yoni Levi<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card no-bottom">
+                        <div class="card-header" role="tab" id="heading2008">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2008" class="purple-link"
+                                   aria-expanded="true" aria-controls="collapse2008">
+                                    Year 2008 - 2009
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2008" class="collapse show" role="tabpanel" aria-labelledby="heading2008">
+                            <div class="card-block">
+                                <p>
+                                    <strong>Founder:</strong> Erik Miller<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="footer">
+                <hr>
+                Copyright &copy; 2018 SCS Concordia
+            </div>
+        </div>
+        <div id="sidebar" class="hidden-sm-down col-md-3">
+            <div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500"
+                 data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+                 data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+            integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+            integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+            crossorigin="anonymous"></script>
+    <script src="/static/bootstrap4/js/bootstrap.min.js"
+            integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+            crossorigin="anonymous"></script>
+</body>
 </html>
