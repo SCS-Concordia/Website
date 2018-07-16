@@ -6,9 +6,17 @@ import Header from './ui/components/Header/Header';
 import Footer from './ui/components/Footer/Footer';
 import Home from './ui/pages/Home/Home';
 import EventsHome from './ui/pages/Events/EventsHome';
+import Tutorials from './ui/components/Events/Tutorials';
+import AlgoTime from './ui/components/Events/AlgoTime';
+import Competitions from './ui/components/Events/Competitions';
+import ClothingSale from './ui/components/Events/CothingSale';
+import LizardLounge from './ui/components/Events/LizardLounge';
+
 import FAQ from './ui/pages/FAQ/FAQ';
 import GetInvolved from './ui/pages/GetInvolved/GetInvolved';
 import SCSTeam from './ui/pages/SCSTeam/SCSTeam';
+
+
 
 import './App.css';
 import Sponsors from './ui/pages/Sponsors/Sponsors';
@@ -28,7 +36,12 @@ class App extends Component {
             <Route name="GetInvolved" path="/GetInvolved" component={GetInvolved} />
             <Route name="FAQ" path="/FAQ" component={FAQ} />
             <Route name="Sponsors" path="/sponsors" component={Sponsors} />
-          </Switch>
+            <Route name="Tutorials" path="/Tutorials" component={Tutorials} />
+            <Route name="Competitions" path="/Competitions" component={Competitions} />
+            <Route name="AlgoTime" path="/AlgoTime" component={AlgoTime} />
+            <Route name="ClothingSale" path="/ClothingSale" component={ClothingSale} />
+            <Route name="LizardLounge" path="/LizardLounge" component={LizardLounge} />
+        </Switch>
         </Grid>
         <Footer/>
         </div>

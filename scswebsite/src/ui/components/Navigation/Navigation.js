@@ -13,7 +13,7 @@ import {Link} from 'react-router-dom';
 
 const styles = theme => ({
     root: {
-        display: 'flex',
+        display: 'flex', 
     },
     paper: {
         marginRight: theme.spacing.unit * 2,
