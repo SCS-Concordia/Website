@@ -1,346 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	  <!-- Bootstrap CSS -->
-	  
-	  <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="/static/css/style.css" />
-	  <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
-	  <title>SCS Team</title>
-	  <link rel="shortcut icon" href="/static/images/favicon.ico"/>
-	</head>
+    <!-- Bootstrap CSS -->
 
-	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-		<nav class="navbar navbar-dark bg-faded">
-			<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
-			<a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
-		  <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-		  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-				
-				<a class="navbar-brand hidden-md-down" href="/">
-					<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS Concordia
-		    </a>
-		    <ul class="nav navbar-nav">
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-		        <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
-		          <a class="dropdown-item" href="/events">Information</a>
-		          <a class="dropdown-item" href="/calendar">Calendar</a>
-		          <a class="dropdown-item" href="/competitions">Competitions</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SCS Team</a>
-		        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-		          <a class="dropdown-item" href="/current-executives">Current Executives</a>
-		          <a class="dropdown-item" href="/past-executives">Past Executives</a>
-		          <a class="dropdown-item" href="/contact-us">Contact Us</a>
-		        </div>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/faq">FAQ</a>
-		      </li>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/get-involved">Get Involved</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/sponsors">Sponsors</a>
-		      </li>
-		    </ul>
-		    <form class="form-inline float-lg-right">
-                <a href="/static/documents/clothing-sale-form-winter-2018.pdf" class="btn btn-outline-secondary" download="clothing-sale-form-winter-2018.pdf">Clothing Sale Form</a>
-		    	<a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
-		    </form>
-		    
-		  </div>
-		</nav>
+    <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+    <title>SCS Team</title>
+    <link rel="shortcut icon" href="/static/images/favicon.ico"/>
+</head>
 
-		<div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
-		  <div id="content" class="col-sm-12 col-md-9">
-		    
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <nav class="navbar navbar-dark bg-faded">
+        <img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
+        <a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
+        <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
 
-<div class="jumbotron" style="padding-top:2em">
-	
-  <h3>SCS Current Team</h3><br>
-	<div class="card-deck-wrapper">
-	  <div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/tobi.jpg" alt="tobi">
-	      <div class="card-block">
-	        <h6 class="card-title">President</h6>
-	        <p class="card-text">Tobi Décary-Larocque</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: president.scs@ecaconcordia.ca<br>
-	        Major: Computer Science<br><br>
-	        Co-ordinates our biweekly meetings to plan the
-	        wonderful events you’ll long to attend. I make sure that the team knows what they should be
-	        doing and discuss how to do so. However, my primary responsibility is to search for new ways
-	        to improve the society, and lead it where I want it to go. Behind the scenes, I delegate tasks,
-	        to fulfill the plans I’ve set out to accomplish.</small></p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/sam.png" alt="sam">
-	      <div class="card-block">
-	        <h6 class="card-title">VP Communications</h6>
-	        <p class="card-text">Samantha Kerr</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: communications.scs@ecaconcordia.ca<br>
-					Major: Software Engineering<br><br>
-	        I act as the main point of contact between SCS
-	        and other students, staff, companies and professionals. I manage the SCS mailing list (which
-	        you can subscribe to here!), where we send out a weekly newsletter letting you know about our
-	        upcoming events and any other news or announcements. Furthermore, if there’s anything that
-	        needs to be done for a certain event, such as booking rooms, finding sponsors, getting permissions,
-	         etc, I take care of it.</small></p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/erin.jpg" alt="erin">
-	      <div class="card-block">
-	        <h6 class="card-title">VP Academic</h6>
-	        <p class="card-text">Erin Benderoff</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: academic.scs@ecaconcordia.ca<br>
-					Major: Software Engineering<br><br>
-	        I am in charge of organizing various tutorials
-	        that SCS will be hosting throughout the year. Expect tutorials involving Java, Python, C/C++,
-	        web development and various other cool technologies. I am also responsible for anything that
-	        will help your academic life at Concordia, which includes inviting speakers to come talk to
-	        us about what they do.</small></p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/adam.jpg" alt="adam">
-	      <div class="card-block">
-	        <h6 class="card-title">VP Internal</h6>
-	        <p class="card-text">Adam Galati</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: internal.scs@ecaconcordia.ca<br>
-	        Major: Software Engineering<br><br>
-	        As VP Internal , I’m responsible for maintaining
-	        SCS’s infrastructure, which includes our B-Annex office (B-307), along with the computers and
-	        equipment inside it. </small></p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/alex.jpg" alt="alex">
-	      <div class="card-block">
-	        <h6 class="card-title">VP Projects</h6>
-	        <p class="card-text">Alex Frappier Lachapelle</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: projects.scs@ecaconcordia.ca<br>
-	        Major: Software Engineering<br><br>
-	        As a student, what matters most for your resume are
-	        your projects and what you accomplish in addition to all the high grades you are going to get.
-	        That’s where I come in – I am here to help you work on projects that will boost up your resume and
-	        coding skills. Throughout the year, I will be organizing SCS’s famous Algorithm Time. You’ll have a chance to work on a new technology, collaborate with great
-	        developers and most importantly have fun.</small></p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/christina.jpg" alt="christina">
-	      <div class="card-block">
-	        <h6 class="card-title">VP Finance</h6>
-	        <p class="card-text">Christina Nguyen</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: finance.scs@ecaconcordia.ca<br>
-					Major: Software Engineering<br><br>
-	        As VP Finance, I am responsible for SCS’s sponsorship
-	        and financial affairs. On top of ensuring that our events receive the funding and budgeting they need,
-	        I am excited to be able to promote relationships between SCS, prospective sponsors and the talented
-	        and enthusiastic students who attend our events and may be looking to engage with and learn more about
-	        our sponsors and event co-hosts.</small></p>
-	      </div>
-	    </div>
-		</div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/arielle.jpg" alt="arielle">
-	      <div class="card-block">
-	        <h6 class="card-title">Co-VP Competitions</h6>
-	        <p class="card-text">Arielle Evans</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: competitions.scs@ecaconcordia.ca<br>
-					Major: Computer Science<br><br>
-	        </small></p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/lance.jpg" alt="lance">
-	      <div class="card-block">
-	        <h6 class="card-title">Co-VP Competitions</h6>
-	        <p class="card-text">Lance Lafontaine</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: competitions.scs@ecaconcordia.ca<br>
-	        Major: Software Engineering<br><br></small></p>
-	      </div>
-	    </div>
-		</div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/darrin.jpg" alt="darrin">
-	      <div class="card-block">
-	        <h6 class="card-title">VP Social</h6>
-	        <p class="card-text">Darrin Fong</p>
-	        <p class="card-text"><small class="text-muted">
-	        Email: social.scs@ecaconcordia.ca<br>
-	        Major: Software Engineering<br><br>I am responsible for bringing together this beautiful SCS community
-					through all sorts of activities like social events, the mentorship program and much more.
-					If you see me in the halls, make sure to give me a shout and find out about awesome opportunities
-					SCS can offer you!<br>
-					Cash me visiting your class howbow dah </small></p>
-	      </div>
-	    </div>
-			<div class="card empty-card">
-	      <div class="card-block">
-	      </div>
-	    </div>
-		</div>
-	</div>
-  <hr class="my-2">
-  <p> In addition to executives, directors and first-year representatives help run society activities and contribute their ideas to make the
-  organization better for the students.</p>
-  <div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/brendan.jpg" alt="brendan">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Projects</h6>
-	        <p class="card-text">Brendan McGarry</p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/lori.jpg" alt="lori">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Competitions</h6>
-	        <p class="card-text">Lori Dalkin</p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/jacob.jpg" alt="jacob">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Competitions</h6>
-	        <p class="card-text">Jacob Gagné</p>
-	      </div>
-	    </div>
-		</div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/frankie.jpg" alt="frankie">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Social</h6>
-	        <p class="card-text">Frankie Valela</p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/karen.jpg"%}" alt="karen">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Communications</h6>
-	        <p class="card-text">Karen Bie</p>
-	      </div>
-	    </div>
-		<div class="card">
-	      <img class="card-img-top" src="/static/images/execs/joshua.jpg"%}" alt="joshua">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Finance</h6>
-	        <p class="card-text">Joshua Butler</p>
-	      </div>
-	    </div>
-		</div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/sharon.jpg"%}" alt="sharon">
-	      <div class="card-block">
-	        <h6 class="card-title">Director<br>Academic</h6>
-	        <p class="card-text">Sharon Ho</p>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/leena.jpg"%}" alt="leena">
-	      <div class="card-block">
-	        <h6 class="card-title">First Year Representative<br>Software Engineering</h6>
-	        <p class="card-text">Leena Nguyen</p>
-	      </div>
-	    </div>
-		<div class="card">
-	      <img class="card-img-top" src="/static/images/execs/michael.jpg"%}" alt="michael">
-	      <div class="card-block">
-	        <h6 class="card-title">First Year Representative<br>Computer Engineering</h6>
-	        <p class="card-text">Michael Oiknine</p>
-	      </div>
-	    </div>
-		</div>
-	</div>
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
-	    <div class="card">
-	      <img class="card-img-top" src="/static/images/execs/charles.jpg"%}" alt="charles">
-	      <div class="card-block">
-	        <h6 class="card-title">First Year Representative<br>Computer Science</h6>
-	        <p class="card-text">Charles-Antoine Guité</p>
-	      </div>
-	    </div>
-	    <div class="card empty-card">
-	      <div class="card-block">
-	      </div>
-	    </div>
-			<div class="card empty-card">
-	      <div class="card-block">
-	      </div>
-	    </div>
-		</div>
-	</div>
-	</div>
-  <hr class="my-2">
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="/get-involved" role="button" id="btn-learn-more">Get Involved</a>
-  </p>
-</div>
+            <a class="navbar-brand hidden-md-down" href="/">
+                <img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS
+                Concordia
+            </a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Events</a>
+                    <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
+                        <a class="dropdown-item" href="/events">Information</a>
+                        <a class="dropdown-item" href="/calendar">Calendar</a>
+                        <a class="dropdown-item" href="/competitions">Competitions</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">SCS Team</a>
+                    <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+                        <a class="dropdown-item" href="/current-executives">Current Executives</a>
+                        <a class="dropdown-item" href="/past-executives">Past Executives</a>
+                        <a class="dropdown-item" href="/contact-us">Contact Us</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/faq">FAQ</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/get-involved">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sponsors">Sponsors</a>
+                </li>
+            </ul>
+            <form class="form-inline float-lg-right">
+                <a href="/static/documents/clothing-sale-form-winter-2018.pdf" class="btn btn-outline-secondary"
+                   download="clothing-sale-form-winter-2018.pdf">Clothing Sale Form</a>
+                <a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm
+                    Time</a>
+            </form>
+
+        </div>
+    </nav>
+
+    <div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
+        <div id="content" class="col-sm-12 col-md-9">
+
+            <div class="jumbotron" style="padding-top:2em">
+
+                <h3>SCS Current Team</h3><br>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/erin.jpg" alt="erin">
+                            <div class="card-block">
+                                <h6 class="card-title">President</h6>
+                                <p class="card-text">Erin Benderoff</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: president.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                        Co-ordinates our biweekly meetings to plan the
+                                        wonderful events you’ll long to attend. I make sure that the team knows what they
+                                        should be
+                                        doing and discuss how to do so. However, my primary responsibility is to search for
+                                        new ways
+                                        to improve the society, and lead it where I want it to go. Behind the scenes, I
+                                        delegate tasks,
+                                        to fulfill the plans I’ve set out to accomplish.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/sam.png" alt="sam">
+                            <div class="card-block">
+                                <h6 class="card-title">VP Communications</h6>
+                                <p class="card-text">Samantha Kerr</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: communications.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                        I act as the main point of contact between SCS
+                                        and other students, staff, companies and professionals. I manage the SCS mailing
+                                        list (which
+                                        you can subscribe to here!), where we send out a weekly newsletter letting you know
+                                        about our
+                                        upcoming events and any other news or announcements. Furthermore, if there’s
+                                        anything that
+                                        needs to be done for a certain event, such as booking rooms, finding sponsors,
+                                        getting permissions,
+                                        etc, I take care of it.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/felix.jpg" alt="felix">
+                            <div class="card-block">
+                                <h6 class="card-title">VP Academic</h6>
+                                <p class="card-text">Felix Lapierre</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: academic.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                        I am in charge of organizing various tutorials
+                                        that SCS will be hosting throughout the year. Expect tutorials involving Java,
+                                        Python, C/C++,
+                                        web development and various other cool technologies. I am also responsible for
+                                        anything that
+                                        will help your academic life at Concordia, which includes inviting speakers to come
+                                        talk to
+                                        us about what they do.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/christina.jpg" alt="christina">
+                            <div class="card-block">
+                                <h6 class="card-title">VP Internal</h6>
+                                <p class="card-text">Christina Nguyen</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: internal.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                        As VP Internal , I’m responsible for maintaining
+                                        SCS’s infrastructure, which includes our B-Annex office (B-307), along with the
+                                        computers and
+                                        equipment inside it.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/brendan.jpg" alt="brendan">
+                            <div class="card-block">
+                                <h6 class="card-title">VP Projects</h6>
+                                <p class="card-text">Brendan McGarry</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: projects.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                        As a student, what matters most for your resume are
+                                        your projects and what you accomplish in addition to all the high grades you are
+                                        going to get.
+                                        That’s where I come in – I am here to help you work on projects that will boost up
+                                        your resume and
+                                        coding skills. Throughout the year, I will be organizing SCS’s famous Algorithm
+                                        Time. You’ll have a chance to work on a new technology, collaborate with great
+                                        developers and most importantly have fun.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/joshua.jpg" alt="joshua">
+                            <div class="card-block">
+                                <h6 class="card-title">VP Finance</h6>
+                                <p class="card-text">Joshua Butler</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: finance.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                        As VP Finance, I am responsible for SCS’s sponsorship
+                                        and financial affairs. On top of ensuring that our events receive the funding and
+                                        budgeting they need,
+                                        I am excited to be able to promote relationships between SCS, prospective sponsors
+                                        and the talented
+                                        and enthusiastic students who attend our events and may be looking to engage with
+                                        and learn more about
+                                        our sponsors and event co-hosts.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/jacob.jpg" alt="jacob">
+                            <div class=" card-block">
+                                <h6 class="card-title">Co-VP Competitions</h6>
+                                <p class="card-text">Jacob Gagné</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: competitions.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/lori.jpg" alt="lori">
+                            <div class="card-block">
+                                <h6 class="card-title">Co-VP Competitions</h6>
+                                <p class="card-text">Lori Dalkin</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: competitions.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/mike.jpg" alt="mike">
+                            <div class="card-block">
+                                <h6 class="card-title">VP Social</h6>
+                                <p class="card-text">Mike Brichko</p>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Email: social.scs@ecaconcordia.ca<br>
+                                        Major: Software Engineering<br><br>I am responsible for bringing together this
+                                        beautiful
+                                        SCS community
+                                        through all sorts of activities like social events, the mentorship program and much
+                                        more.
+                                        If you see me in the halls, make sure to give me a shout and find out about awesome
+                                        opportunities
+                                        SCS can offer you!
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card empty-card">
+                            <div class="card-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-2">
+                <p> In addition to executives, directors and first-year representatives help run society activities and
+                    contribute their ideas to make the
+                    organization better for the students.</p>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/darrin.jpg" alt="darrin">
+                            <div class="card-block">
+                                <h6 class="card-title">Director<br>Social</h6>
+                                <p class="card-text">Darrin Fong</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/yunshi.jpg" alt="yunshi">
+                            <div class="card-block">
+                                <h6 class="card-title">Director<br>Communications</h6>
+                                <p class="card-text">Yun Shi Lin</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/jun.jpg" alt="jun">
+                            <div class="card-block">
+                                <h6 class="card-title">Director<br>Communications</h6>
+                                <p class="card-text">Jun Loke</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/avery.jpg" alt="avery">
+                            <div class="card-block">
+                                <h6 class="card-title">Director<br>Finance</h6>
+                                <p class="card-text">Avery Singh</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="/static/images/execs/leena.jpg" alt="leena">
+                            <div class="card-block">
+                                <h6 class="card-title">Director<br>Academic</h6>
+                                <p class="card-text">Leena Nguyen</p>
+                            </div>
+                        </div>
+                        <div class="card empty-card">
+                            <div class="card-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-2">
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="/get-involved" role="button" id="btn-learn-more">Get
+                        Involved</a>
+                </p>
+            </div>
 
 
-			  <div id="footer">
-			  	<hr>
-			  	Copyright &copy; 2018 SCS Concordia
-			  </div>
-		  </div>
-		  <div id="sidebar" class="hidden-sm-down col-md-3">
-		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
-		  </div>
-	  </div>
+            <div id="footer">
+                <hr>
+                Copyright &copy; 2018 SCS Concordia
+            </div>
+        </div>
+        <div id="sidebar" class="hidden-sm-down col-md-3">
+            <div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500"
+                 data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+                 data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote>
+            </div>
+        </div>
+    </div>
 
-	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="/static/bootstrap4/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-	</body>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+            integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+            integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+            crossorigin="anonymous"></script>
+    <script src="/static/bootstrap4/js/bootstrap.min.js"
+            integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+            crossorigin="anonymous"></script>
+</body>
 </html>
