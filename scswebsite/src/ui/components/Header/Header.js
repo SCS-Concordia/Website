@@ -1,10 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
+import Navigation from '../Navigation/Navigation';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Navigation from '../Navigation/Navigation';
+import scsconcordia from '../../images/scsconcordia.png';
+import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
     button: {
@@ -22,14 +23,12 @@ function Header(props) {
     const { classes } = props;
 
     return (
-        <div className={"nav"}>
+        <div className={"nav"} >
             <div className={classes.root}>
-                <Toolbar>
-                    <Typography variant="title" color="inherit" className={classes.flex}>
-                        <Link to={"/"}><img src={""} height={"20vh"} width={"20vh"}/>SCS Concordia</Link>
-                    </Typography>
+                <Toolbar style={{width: '100%'}}>
+                    <Link to="/"> <img src={scsconcordia} height={20}/></Link>
                     <div>
-                        <Navigation  />
+                        <Navigation style={{float: 'right'}} />
                     </div>
                 </Toolbar>
             </div>
