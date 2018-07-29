@@ -1,142 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	  <!-- Bootstrap CSS -->
-	  
-	  <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="/static/css/style.css" />
-	  <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
-	  <title>Events</title>
-	  <link rel="shortcut icon" href="/static/images/favicon.ico"/>
-	</head>
+    <!-- Bootstrap CSS -->
 
-	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-		<nav class="navbar navbar-dark bg-faded">
-			<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
-			<a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
-		  <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-		  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-				
-				<a class="navbar-brand hidden-md-down" href="/">
-					<img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS Concordia
-		    </a>
-		    <ul class="nav navbar-nav">
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-		        <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
-		          <a class="dropdown-item" href="/events">Information</a>
-		          <a class="dropdown-item" href="/calendar">Calendar</a>
-		          <a class="dropdown-item" href="/competitions">Competitions</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SCS Team</a>
-		        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-		          <a class="dropdown-item" href="/current-executives">Current Executives</a>
-		          <a class="dropdown-item" href="/past-executives">Past Executives</a>
-		          <a class="dropdown-item" href="/contact-us">Contact Us</a>
-		        </div>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/faq">FAQ</a>
-		      </li>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/get-involved">Get Involved</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="/sponsors">Sponsors</a>
-		      </li>
-		    </ul>
-		    <form class="form-inline float-lg-right">
-                <a href="/static/documents/clothing-sale-form-winter-2018.pdf" class="btn btn-outline-secondary" download="clothing-sale-form-winter-2018.pdf">Clothing Sale Form</a>
-		        <a href="/learning-packages" class="btn btn-outline-secondary">Learning Packages</a>
-		    	<a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm Time</a>
-		    </form>
-		    
-		  </div>
-		</nav>
+    <link rel="stylesheet" href="/static/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+    <title>Events</title>
+    <link rel="shortcut icon" href="/static/images/favicon.ico"/>
+</head>
 
-		<div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
-		  <div id="content" class="col-sm-12 col-md-9">
-		    
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=229938277133031";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <nav class="navbar navbar-dark bg-faded">
+        <img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top hidden-lg-up" alt=""/>
+        <a href="/" class="hidden-lg-up mobile-title">&nbsp;SCS Concordia</a>
+        <button class="navbar-toggler hidden-lg-up right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
 
+            <a class="navbar-brand hidden-md-down" href="/">
+                <img src="/static/images/scs.ico" width="30" height="30" class="d-inline-block align-top" alt=""/> SCS
+                Concordia
+            </a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="eventResponsiveNavbarDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Events</a>
+                    <div class="dropdown-menu" aria-labelledby="eventResponsiveNavbarDropdown">
+                        <a class="dropdown-item" href="/events">Information</a>
+                        <a class="dropdown-item" href="/calendar">Calendar</a>
+                        <a class="dropdown-item" href="/competitions">Competitions</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">SCS Team</a>
+                    <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+                        <a class="dropdown-item" href="/current-executives">Current Executives</a>
+                        <a class="dropdown-item" href="/past-executives">Past Executives</a>
+                        <a class="dropdown-item" href="/contact-us">Contact Us</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/faq">FAQ</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/get-involved">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sponsors">Sponsors</a>
+                </li>
+            </ul>
+            <form class="form-inline float-lg-right">
+                <a href="/static/documents/clothing-sale-form-winter-2018.pdf" class="btn btn-outline-secondary"
+                   download="clothing-sale-form-winter-2018.pdf">Clothing Sale Form</a>
+                <a href="http://algotime.scsconcordia.com" target="_blank" class="btn btn-outline-secondary">Algorithm
+                    Time</a>
+            </form>
 
-<div class="jumbotron" style="padding-top:2em">
-  <h3>SCS Tutorials</h3><br>
-  <img class="event-header" src="/static/images/tutorialheader.png" alt="tutorials"><br><br>
-  <p>Each year, SCS organizes various tutorials, including:</p>
-  <ul>
-  	<li><strong>Introduction to Git:</strong> Git is a version control system used widely in software development. In this 
-  	workshop, you will learn the basics of Git and acquire skills that will greatly benefit you in your career.</li>
-  	<li><strong>Unix Fundamentals via the Shell:</strong> An introduction to Linux via Bash, the default shell 
-  	(command line interface) on Mac and most Linux distributions. In this workshop, you will learn various 
-  	commands, file system basics, pipe-and-filter model, and the basics of scripting and automation.</li>
-  	<li><strong>Python Workshop:</strong> An introduction to the basics of Python, a high-level, general 
-  	purpose, dynamic programming language. This course covers the built-in types and data structures, 
-  	functions, and how to write basic scripts.</li>
-  	<li><strong>Android Tutorial:</strong> Interested in mobile development? This workshop provides an 
-  	introduction to Android development and give you the tools to get started on building your first Android
-  	application.</li>
-  	<li><strong>Unity Tutorial:</strong> Are you interested in game development? Learn how to build your first
-  	game with Unity, a popular and fun-to-use cross-platform game engine.</li>
-  </ul>
-  <p>For more information on our tutorials, you can contact our VP Academic at 
-  <a href="mailto:academic.scs@ecaconcordia.ca" target="_blank">academic.scs@ecaconcordia.ca</a>.</p><br>
+        </div>
+    </nav>
 
-  <h3>SCS Algorithm Time</h3><br>
-  <img class="event-header" src="/static/images/algotimeheader.png" alt="tutorials"><br><br>
-  <p>Algorithm Time is a 2-hour event that happens every week; at each session, we will solve problems 
-  of different levels and, at the end, discuss the various methods and algorithms that can be used to 
-  solve the problems.</p>
-	<p>This event will help you sharpen your problem solving skills and prepare you for coding questions 
-	that you will see during job interviews! So, come practice your skills with us and also have some fun! 
-	All skill levels are welcome, and volunteers will be there to help if you need it!</p>
-	<p>For more information, visit the <a href="https://www.facebook.com/algorithm.time/" target="_blank">Algorithm Time Facebook page</a> or contact our VP Projects at 
-	<a href="mailto:projects.scs@ecaconcordia.ca" target="_blank">projects.scs@ecaconcordia.ca</a>.</p><br>
-
-  <h3>SOEN/COEN/ELEC/COMP Clothing Sale</h3><br>
-  <img class="event-header" src="/static/images/clothingheader.png" alt="clothes"><br><br>
-  <p>It’s happening! SCS has some hot new clothing items for SOEN, COEN, ELEC, and CompSci students!</p>
-  <p>We’ll be selling hoodies and crewnecks tailored to each program, as well as the SCS “Code-Blooded” 
-  t-shirts first introduced by the SCS executives!</p>
-  <p>Please see our <a href="/calendar">calendar</a> and stay tuned on Facebook for the dates of the next sale.</p><br>
-
-	<h3>Lizard Lounge</h3>
-	<p>Lizard Lounge is a weekly social event hosted by a different ECA society each week. Every semester,
-	 SCS hosts one edition of this event, and it is not to be missed. Come hang out with awesome people 
-	 and make new friends, complete with drinks, snacks, games, and more!</p>
-	<p>For more information on Lizard Lounge and other SCS social events, you can contact our VP Social at 
-	<a href="mailto:social.scs@ecaconcordia.ca" target="_blank">social.scs@ecaconcordia.ca</a>.</p><br>
-
-</div>
+    <div id="mid" class="col-md-12 col-xl-10 push-xl-1 col-sm-12">
+        <div id="content" class="col-sm-12 col-md-9">
 
 
-			  <div id="footer">
-			  	<hr>
-			  	Copyright &copy; 2017 SCS Concordia
-			  </div>
-		  </div>
-		  <div id="sidebar" class="hidden-sm-down col-md-3">
-		  	<div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote></div>
-		  </div>
-	  </div>
+            <div class="jumbotron" style="padding-top:2em">
+                <h3>SCS Tutorials</h3>
+                <p>Each year, SCS organizes various tutorials, including:</p>
+                <ul>
+                    <li><strong>Introduction to Git:</strong> Git is a version control system used widely in software
+                        development. In this
+                        workshop, you will learn the basics of Git and acquire skills that will greatly benefit you in your
+                        career.
+                    </li>
+                    <li><strong>Unix Fundamentals via the Shell:</strong> An introduction to Linux via Bash, the default
+                        shell
+                        (command line interface) on Mac and most Linux distributions. In this workshop, you will learn
+                        various
+                        commands, file system basics, pipe-and-filter model, and the basics of scripting and automation.
+                    </li>
+                    <li><strong>Python Workshop:</strong> An introduction to the basics of Python, a high-level, general
+                        purpose, dynamic programming language. This course covers the built-in types and data structures,
+                        functions, and how to write basic scripts.
+                    </li>
+                    <li><strong>Android Tutorial:</strong> Interested in mobile development? This workshop provides an
+                        introduction to Android development and give you the tools to get started on building your first
+                        Android
+                        application.
+                    </li>
+                    <li><strong>Unity Tutorial:</strong> Are you interested in game development? Learn how to build your
+                        first
+                        game with Unity, a popular and fun-to-use cross-platform game engine.
+                    </li>
+                </ul>
+                <br>
+                <h3>Spice Up Your Life</h3>
+                <p>The Spice Up Your Life! event is Meet & Greet event we organize between students and professors
+                    within the Computer Science and Software Engineering (CSE) department. These professors are
+                    interested in finding students to help them with their research; this event is a great opportunity
+                    for students to get to know the professors and learn about the potential undergraduate research
+                    opportunities with the professors over the summer, such as the NSERC USRA program. If that wasn't
+                    enough, this event includes FREE spicy food!</p><br>
 
-	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="/static/bootstrap4/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-	</body>
+
+                <p>For more information on our tutorials or the Spice Up Your Life event, you can contact our VP Academic at
+                    <a href="mailto:academic.scs@ecaconcordia.ca" target="_blank">academic.scs@ecaconcordia.ca</a>.</p>
+
+                <hr><br>
+
+                <h3>SCS Algorithm Time</h3>
+                <p>Algorithm Time is a 2-hour event that happens every week; at each session, we will solve problems
+                    of different levels and, at the end, discuss the various methods and algorithms that can be used to
+                    solve the problems.</p>
+                <p>This event will help you sharpen your problem solving skills and prepare you for coding questions
+                    that you will see during job interviews! So, come practice your skills with us and also have some fun!
+                    All skill levels are welcome, and volunteers will be there to help if you need it!</p>
+                <p>Visit the <a href="https://www.facebook.com/algorithm.time/" target="_blank">Algorithm
+                    Time Facebook page</a> or <a href="http://algotime.scsconcordia.com" target="_blank">Algorithm
+                    Time website</a> for more information.</p>
+
+                <br>
+                <h3>Coding Night</h3>
+                <p>SCS Coding Nights happens twice a month during the evening, where you can work on a project of your
+                    choice, or program in teams in a pre-determined project! Last year, the project was to create a
+                    chess bot. Help is provided throughout the development process, along with introductions for how to
+                    use Git for group projects, creating object-oriented logic, and more.</p><br>
+
+                <p>For more information on Coding Night or Algorithm Time, contact our VP Projects at
+                    <a href="mailto:projects.scs@ecaconcordia.ca" target="_blank">projects.scs@ecaconcordia.ca</a>.</p>
+
+                <hr><br>
+
+                <h3>Clothing Sale for SOEN/COEN/ELEC/COMP Students</h3><br>
+                <img class="event-header" src="/static/images/events/clothingheader.png" alt="clothes"><br><br>
+                <p>SCS has some hot clothing items for SOEN, COEN, ELEC, and CompSci students! At the beginning of each Fall
+                    and Winter semester, SCS will be selling hoodies and crewnecks tailored to each program.</p>
+                <p>Please see our <a href="/calendar">calendar</a> and stay tuned on Facebook for the dates of the next
+                    sale.</p>
+
+                <hr><br>
+
+                <h3>Lizard Lounge</h3>
+                <p>Lizard Lounge is a weekly social event hosted by a different ECA society each week. Every semester,
+                    SCS hosts one edition of this event, and it is not to be missed. Come hang out with awesome people
+                    and make new friends, complete with drinks, snacks, games, and more!</p>
+                <br>
+                <h3>Milk &amp; Cookies</h3>
+                <p>At the end of every semester, SCS provides a de-stressing event called Milk & Cookies, where you can
+                    grab a free snack of freshly-baked cookies and milk, kick back to relax, and have a good time hanging
+                    out and playing retro video games or board games with other awesome people at the B-Annex lounge!
+                </p><br>
+
+                <h3>Wine &amp; Cheese</h3>
+                <p>SCS hosted it's first Wine & Cheese last year, with great success! Wine & Cheese is a popular
+                    semi-formal event where students can network with fellow students and company representatives.
+                    This is a great opportunity to meet with professionals and learn about their experiences in the
+                    technology industry, while indulging in great wine and snacks at the same time! </p><br>
+                <p>For more information on Lizard Lounge and other SCS social events, you can contact our VP Social at
+                    <a href="mailto:social.scs@ecaconcordia.ca" target="_blank">social.scs@ecaconcordia.ca</a>.</p>
+            </div>
+
+
+            <div id="footer">
+                <hr>
+                Copyright &copy; 2018 SCS Concordia
+            </div>
+        </div>
+        <div id="sidebar" class="hidden-sm-down col-md-3">
+            <div class="fb-page" data-href="https://www.facebook.com/scsconcordia/" data-tabs="timeline" data-height="500"
+                 data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+                 data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/scsconcordia/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/scsconcordia/">SCS Concordia</a></blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+            integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+            integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+            crossorigin="anonymous"></script>
+    <script src="/static/bootstrap4/js/bootstrap.min.js"
+            integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+            crossorigin="anonymous"></script>
+</body>
 </html>
