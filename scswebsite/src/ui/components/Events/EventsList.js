@@ -20,6 +20,9 @@ const styles = {
     container: {
       margin: 'auto',
     },
+    item: {
+        paddingTop: '1em',
+    },
   };
   
 
@@ -29,7 +32,7 @@ const styles = {
         return(
           <div className={"grid-root"}>
               <Grid container>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
+                <Grid item xs={12} sm={6} className={classes.item}>
                     <Link to={"/Tutorials"}>
                         <Card className={classes.card}>
                             <CardMedia
@@ -49,7 +52,7 @@ const styles = {
                         </Card>
                     </Link>
                 </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
+                <Grid item xs={12} sm={6} className={classes.item}>
                     <Link to = {"/Competitions"}>
                         <Card className={classes.card}>
                             <CardMedia
@@ -67,7 +70,7 @@ const styles = {
                         </Card>
                     </Link>
                 </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
+                <Grid item xs={12} sm={6} className={classes.item}>
                     <Link to ={"/AlgoTime"}>
                         <Card className={classes.card}>
                                 <CardMedia
@@ -85,7 +88,7 @@ const styles = {
                             </Card>
                     </Link>
                 </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
+                <Grid item xs={12} sm={6} className={classes.item}>
                     <Link to = {"/ClothingSale"}>
                         <Card className={classes.card}>
                             <CardMedia
@@ -103,7 +106,7 @@ const styles = {
                         </Card>
                     </Link>
                 </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
+                <Grid item xs={12} sm={6} className={classes.item}>
                     <Link to = {"/LizardLounge"}>
                         <Card className={classes.card}>
                             <CardMedia

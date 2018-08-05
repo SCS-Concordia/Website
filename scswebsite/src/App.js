@@ -22,7 +22,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Router>
-                    <div>
+                    <div className="mainContent">
                         <Header/>
                         <Route exact name="Home" path="/" component={Home}/>
                         <Route name="Events" path="/Events" component={EventsHome}/>
@@ -35,9 +35,9 @@ class App extends Component {
                         <Route name="AlgoTime" path="/AlgoTime" component={AlgoTime}/>
                         <Route name="ClothingSale" path="/ClothingSale" component={ClothingSale}/>
                         <Route name="LizardLounge" path="/LizardLounge" component={LizardLounge}/>
-                        <Footer/>
                     </div>
                 </Router>
+                <Footer/>
             </div>
         );
     }
