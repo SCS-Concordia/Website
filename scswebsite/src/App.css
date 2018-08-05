@@ -2,8 +2,9 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background-color: #F1F1F1;
-  color: #FFF;
+  background-color: #FFFFFF;
+  color: #000;
+  font-size: 1em;
 }
 
 .App-logo {
@@ -29,6 +30,35 @@
   width: 100%;
   height: auto;
   position: relative;
+}
+
+.container {
+  padding: 2em 2em;
+  max-width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FFFFFF;
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 100;
+  margin: 1em 0;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+.listIndent {
+  padding-left: 1em;
 }
 
 @keyframes App-logo-spin {

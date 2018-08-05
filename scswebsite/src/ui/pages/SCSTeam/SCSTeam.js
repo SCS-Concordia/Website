@@ -4,7 +4,7 @@ import SCSTeamInfo from '../../components/SCSTeam/SCSTeamIntro';
 export default class SCSTeam extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <SCSTeamInfo/>
       </div>
     )

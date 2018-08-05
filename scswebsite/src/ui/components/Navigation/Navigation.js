@@ -6,16 +6,7 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import scsmenu from '../../images/scsmenu.png';
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = {
-  list: {
-    width: '25%',
-  },
-  fullList: {
-    width: 'auto',
-    height: 650,
-    paddingTop: 30,
-  },
-};
+import styles from './Navigation.css';
 
 class Navigation extends React.Component {
   state = {
@@ -32,7 +23,7 @@ class Navigation extends React.Component {
     const { classes } = this.props;
 
     const fullList = (
-      <div className={classes.fullList}>
+      <div className='fullList'>
         {Menu}
       </div>
     );

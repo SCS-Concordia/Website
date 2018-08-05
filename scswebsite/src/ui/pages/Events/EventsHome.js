@@ -4,7 +4,7 @@ import EventsList from '../../components/Events/EventsList';
 export default class EventsHome extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <EventsList />
       </div>
     );
