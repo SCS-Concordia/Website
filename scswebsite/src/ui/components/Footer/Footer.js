@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-export default class Footer extends Component {
-  render() {
+import './Footer.css';
+
+export function Footer() {
     return (
-      <div>
-        <Typography>Copyright © 2017 SCS Concordia</Typography>
+      <div className="footer">
+        <Typography className="typography">Copyright © 2018 SCS Concordia</Typography>
       </div>
     )
-  }
 }
+
+export default Footer;

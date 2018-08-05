@@ -5,13 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-          <div>
             <Main/>
-          </div>
-          <div>
-
-          </div>
-        
       </div>
 
     );

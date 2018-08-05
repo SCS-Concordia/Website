@@ -15,7 +15,7 @@ export default class SponsorsList extends Component {
                             <Typography gutterBottom variant="headline" component="h2">
                               Scigilian
                             </Typography>
-                            <img src={""} width="250"/>
+                            <img src={""} alt="" width="250"/>
                         </div>
                     </Link>
                 </Grid>
@@ -25,7 +25,7 @@ export default class SponsorsList extends Component {
                             <Typography gutterBottom variant="headline" component="h2">
                                 ECA Concordia
                             </Typography>
-                            <img src={""} width="250"/>
+                            <img src={""} alt="" width="250"/>
                         </div>
                     </Link>
                 </Grid>

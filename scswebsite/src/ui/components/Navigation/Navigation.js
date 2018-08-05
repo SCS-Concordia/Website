@@ -1,6 +1,4 @@
 import Button from '@material-ui/core/Button';
-import Divider from '@material-ui/core/Divider';
-import List from '@material-ui/core/List';
 import { Menu } from './tileData';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -42,7 +40,7 @@ class Navigation extends React.Component {
     return (
       <div>
         <Button onClick={this.toggleDrawer('top', true)} style={{float: 'right'}}>
-            <img src={scsmenu} style={{height: 15}}/>
+            <img src={scsmenu} alt="" style={{height: 15}}/>
         </Button>
          <SwipeableDrawer
           anchor="top"

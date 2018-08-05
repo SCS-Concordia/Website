@@ -36,7 +36,7 @@ export default class FAQList extends Component {
 
           <h2>How do I subscribe to the mailing list and what emails will I receive?</h2>
           <Typography>
-            The form to subscribe to the mailing list is on this page. By subscribing to it, you’ll receive our weekly SCS newsletter, where we let you know about our upcoming events and any other announcements. You can unsubscribe at any time, not that you’ll want to 😉
+            The form to subscribe to the mailing list is on this page. By subscribing to it, you’ll receive our weekly SCS newsletter, where we let you know about our upcoming events and any other announcements. You can unsubscribe at any time!
           </Typography>
 
           <h2>How can I become an executive on SCS?</h2>
