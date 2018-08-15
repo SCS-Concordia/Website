@@ -10,7 +10,7 @@ export const Menu = (
       <Grid fluid>
         <Row>
             <Col xs={3} sm={3}>
-                <Link to="/events" style={styles.options} className="nav-item">Events</Link> 
+                <Link to="/events" className="nav-item">Events</Link> 
                 <br/><br/>
                 <Link to="/Tutorials" className="nav-list-item">Tutorials</Link>
                 <br/>
@@ -26,17 +26,17 @@ export const Menu = (
                 
           </Col>
             <Col xs={3} sm={3}>
-                <Link to="/SCSTeam" style={styles.options} className="nav-item">Get Involved</Link> 
+                <Link to="/SCSTeam" className="nav-item">Get Involved</Link> 
                 <br/><br/>
                 <Link to="/SCSTeam" className="nav-list-item">Current Team</Link>
                 <br/>
                 <Link to="/PastExecs" className="nav-list-item">Past Execs</Link>
             </Col>
             <Col xs={3} sm={3}>
-                <Link to="/faq" style={styles.options} className="nav-item">FAQ</Link>
+                <Link to="/faq" className="nav-item">FAQ</Link>
             </Col>
             <Col xs={3} sm={3}>
-                <Link to="/sponsors" style={styles.options} className="nav-item">Sponsors</Link>
+                <Link to="/sponsors" className="nav-item">Sponsors</Link>
             </Col>
         </Row>
       </Grid>
