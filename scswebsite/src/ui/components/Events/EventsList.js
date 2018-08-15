@@ -17,6 +17,9 @@ const styles = {
     container: {
       margin: 'auto',
     },
+    item: {
+        paddingTop: '1em',
+    },
   };
   
 

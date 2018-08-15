@@ -4,7 +4,7 @@ import FAQList from '../../components/FAQ/FAQlist';
 export default class FAQ extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <FAQList/>
       </div>
     )

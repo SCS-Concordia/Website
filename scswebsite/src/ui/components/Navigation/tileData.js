@@ -1,13 +1,9 @@
+import './Navigation.css';
+
 import { Col, Grid, Row } from 'react-flexbox-grid';
 
 import { Link } from 'react-router-dom';
 import React from 'react';
-
-const styles = {
-    options: {
-        padding: '1em',
-    }
-};
 
 export const Menu = (
   <div>

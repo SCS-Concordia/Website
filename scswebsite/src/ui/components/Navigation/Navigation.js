@@ -1,23 +1,11 @@
 import Button from '@material-ui/core/Button';
-import Divider from '@material-ui/core/Divider';
-import List from '@material-ui/core/List';
 import { Menu } from './tileData';
 import PropTypes from 'prop-types';
 import React from 'react';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import scsmenu from '../../images/scsmenu.png';
+import styles from './Navigation.css';
 import { withStyles } from '@material-ui/core/styles';
-
-const styles = {
-  list: {
-    width: '25%',
-  },
-  fullList: {
-    width: 'auto',
-    height: 650,
-    paddingTop: 30,
-  },
-};
 
 class Navigation extends React.Component {
   state = {
@@ -34,7 +22,7 @@ class Navigation extends React.Component {
     const { classes } = this.props;
 
     const fullList = (
-      <div className={classes.fullList}>
+      <div className='fullList'>
         {Menu}
       </div>
     );
@@ -42,7 +30,7 @@ class Navigation extends React.Component {
     return (
       <div>
         <Button onClick={this.toggleDrawer('top', true)}>
-            <img src={scsmenu} style={{height: 15}}/>
+            <img src={scsmenu} alt="" style={{height: 15}}/>
         </Button>
          <SwipeableDrawer
           anchor="top"

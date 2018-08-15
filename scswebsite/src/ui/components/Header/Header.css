@@ -1,0 +1,12 @@
+.right {
+    position: absolute;
+    right: 1em;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #932439;
+    color: #fff;
+    padding: 0;
+    height: auto;
+}

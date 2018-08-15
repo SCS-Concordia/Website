@@ -7,7 +7,7 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 100px;
 }
 
 .App-header {
@@ -22,6 +22,41 @@
 
 .App-intro {
   font-size: large;
+}
+
+.mainContent {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.container {
+  padding: 2em 2em;
+  max-width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FFFFFF;
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 100;
+  margin: 1em 0;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+.listIndent {
+  padding-left: 1em;
 }
 
 @keyframes App-logo-spin {
