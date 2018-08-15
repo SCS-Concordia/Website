@@ -17,20 +17,22 @@ const styles = theme => ({
     flex: {
         flex: 1,
     },
+    nav: {
+        backgroundColor: 'transparent',
+    }
+
 });
 
 function Header(props) {
     const { classes } = props;
 
     return (
-        <div className={"nav"} >
+        <div className={classes.nav}>
             <div className={classes.root}>
-                <Toolbar style={{width: '100%'}}>
                     <Link to="/"> <img src={scsconcordia} height={20}/></Link>
-                    <div>
-                        <Navigation style={{float: 'right'}} />
+                    <div style={{float: "right"}}>
+                        <Navigation />
                     </div>
-                </Toolbar>
             </div>
         </div>
     );

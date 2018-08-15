@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .App {
-  padding: 1em;
+  padding-top: 1em;
+  font-family: 'Quicksand';
 }
 
 .App-logo {
@@ -25,3 +28,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+a{
+  text-decoration: none;
+}
+
+@import './ui/Stylesheets/Navigation.scss';
+@import './ui/Stylesheets/EventList.scss';
+@import './ui/Stylesheets/Main.scss';

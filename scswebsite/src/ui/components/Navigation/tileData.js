@@ -1,16 +1,7 @@
-import DeleteIcon from '@material-ui/icons/Delete';
-import DraftsIcon from '@material-ui/icons/Drafts';
-import { Grid } from 'react-bootstrap';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
+import { Col, Grid, Row } from 'react-flexbox-grid';
+
 import { Link } from 'react-router-dom';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import MailIcon from '@material-ui/icons/Mail';
 import React from 'react';
-import ReportIcon from '@material-ui/icons/Report';
-import SendIcon from '@material-ui/icons/Send';
-import StarIcon from '@material-ui/icons/Star';
 
 const styles = {
     options: {
@@ -20,10 +11,38 @@ const styles = {
 
 export const Menu = (
   <div>
-        <Link to="/events" style={styles.options}>Events</Link> 
-        <Link to="/SCSTeam" style={styles.options}>SCS Team</Link> 
-        <Link to="/faq" style={styles.options}>FAQ</Link>
-        <Link to="/sponsors" style={styles.options}>Sponsors</Link>
-  
+      <Grid fluid>
+        <Row>
+            <Col xs={3} sm={3}>
+                <Link to="/events" style={styles.options} className="nav-item">Events</Link> 
+                <br/><br/>
+                <Link to="/Tutorials" className="nav-list-item">Tutorials</Link>
+                <br/>
+                <Link to="/Competitions" className="nav-list-item">Competitions</Link>
+                <br/>
+                <Link to="/AlgoTime" className="nav-list-item">AlgoTime</Link>
+                <br/>
+                <Link to="/ClothingSale" className="nav-list-item">Clothing Sale</Link>
+                <br/>
+                <Link to="/LizardLounge" className="nav-list-item">Lizard Lounge</Link>
+                <br/>
+                <Link to="/Milk&Cookies" className="nav-list-item">Milk & Cookies</Link>
+                
+          </Col>
+            <Col xs={3} sm={3}>
+                <Link to="/SCSTeam" style={styles.options} className="nav-item">Get Involved</Link> 
+                <br/><br/>
+                <Link to="/SCSTeam" className="nav-list-item">Current Team</Link>
+                <br/>
+                <Link to="/PastExecs" className="nav-list-item">Past Execs</Link>
+            </Col>
+            <Col xs={3} sm={3}>
+                <Link to="/faq" style={styles.options} className="nav-item">FAQ</Link>
+            </Col>
+            <Col xs={3} sm={3}>
+                <Link to="/sponsors" style={styles.options} className="nav-item">Sponsors</Link>
+            </Col>
+        </Row>
+      </Grid>
   </div>
 );

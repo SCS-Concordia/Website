@@ -1,14 +1,9 @@
+import {Col, Grid, Row} from 'react-flexbox-grid';
 import React, { Component } from 'react';
-import Typography from '@material-ui/core/Typography';
+
 import { Link } from 'react-router-dom';
-import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 
 const styles = {
     card: {
@@ -27,106 +22,66 @@ const styles = {
 
   function SimpleMediaCard(props) {
     const { classes } = props;
-
         return(
-          <div className={"grid-root"}>
-              <Grid container spacing={8}>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
-                    <Link to={"/Tutorials"}>
-                        <Card className={classes.card}>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="headline" component="h2">
-                                    Tutorials
-                                </Typography>
-
-                                <Typography component="p">
-
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
-                    <Link to = {"/Competitions"}>
-                        <Card className={classes.card}>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="headline" component="h2">
-                                    Competitions
-                            </Typography>
-                                <Typography component="p">
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
-                    <Link to ={"/AlgoTime"}>
-                        <Card className={classes.card}>
-                                <CardMedia
-                                    className={classes.media}
-                                    image="/static/images/cards/contemplative-reptile.jpg"
-                                    title="Contemplative Reptile"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="headline" component="h2">
-                                        AlgoTime
-                                </Typography>
-                                    <Typography component="p">
-                                    </Typography>
-                                </CardContent>
-                            </Card>
-                    </Link>
-                </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
-                    <Link to = {"/ClothingSale"}>
-                        <Card className={classes.card}>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="headline" component="h2">
-                                    Clothing Sale
-                            </Typography>
-                                <Typography component="p">
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                </Grid>
-                <Grid item xs={12} sm={6} padding={"2vh"}>
-                    <Link to = {"/LizardLounge"}>
-                        <Card className={classes.card}>
-                            <CardMedia
-                                className={classes.media}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="headline" component="h2">
-                                    Lizard Lounge
-                            </Typography>
-                                <Typography component="p">
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                </Grid>
-              </Grid>
-          </div>
+         <div>
+             <Grid>
+                 <Row>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/Tutorials"}>
+                            <div className="event-col">
+                                <h3>Tutorials</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/Competitions"}>
+                            <div className="event-col">
+                                <h3>Competitions</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                 </Row>
+                 <Row>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/AlgoTime"}>
+                            <div className="event-col">
+                                <h3>AlgoTime</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                     <Col xs={12} sm={6}>
+                     <Link to={"/ClothingSale"}>
+                            <div className="event-col">
+                                <h3>Clothing Sale</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                 </Row>
+                 <Row>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/LizardLounge"}>
+                            <div className="event-col">
+                                <h3>Lizard Lounge</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/Milk&Cookies"}>
+                            <div className="event-col">
+                                <h3>Milk & Cookies</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                 </Row>
+             </Grid>
+         </div>
         );
-    
 }
 
 SimpleMediaCard.propTypes = {

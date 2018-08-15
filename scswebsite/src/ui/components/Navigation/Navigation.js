@@ -41,7 +41,7 @@ class Navigation extends React.Component {
 
     return (
       <div>
-        <Button onClick={this.toggleDrawer('top', true)} style={{float: 'right'}}>
+        <Button onClick={this.toggleDrawer('top', true)}>
             <img src={scsmenu} style={{height: 15}}/>
         </Button>
          <SwipeableDrawer
