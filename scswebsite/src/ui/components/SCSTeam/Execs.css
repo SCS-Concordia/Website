@@ -4,6 +4,7 @@
         align-items: center;
         display: inline-block;
         text-align: center;
+        padding: 1em;
     }
 }
 
@@ -19,4 +20,8 @@
     text-align: center;
     align-items: center;
     margin: 0 auto;
+}
+
+.role{
+    font-weight: bold;
 }

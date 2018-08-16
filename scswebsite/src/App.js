@@ -13,6 +13,7 @@ import GetInvolved from './ui/pages/GetInvolved/GetInvolved';
 import Header from './ui/components/Header/Header';
 import Home from './ui/pages/Home/Home';
 import LizardLounge from './ui/components/Events/LizardLounge';
+import PastExecs from './ui/pages/SCSTeam/PastExecs';
 import SCSTeam from './ui/pages/SCSTeam/SCSTeam';
 import Sponsors from './ui/pages/Sponsors/Sponsors';
 import Tutorials from './ui/components/Events/Tutorials';
@@ -35,6 +36,7 @@ class App extends Component {
                         <Route name="AlgoTime" path="/AlgoTime" component={AlgoTime}/>
                         <Route name="ClothingSale" path="/ClothingSale" component={ClothingSale}/>
                         <Route name="LizardLounge" path="/LizardLounge" component={LizardLounge}/>
+                        <Route name="PastExecs" path="/PastExecs" component={PastExecs}/>
                     </div>
                 </Router>
                 <Footer/>

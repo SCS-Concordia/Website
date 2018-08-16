@@ -66,6 +66,7 @@ p {
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 @import './ui/Stylesheets/Navigation.scss';
