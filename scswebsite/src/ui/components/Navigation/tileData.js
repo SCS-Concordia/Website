@@ -26,7 +26,7 @@ export const Menu = (
                 
           </Col>
             <Col xs={3} sm={3}>
-                <Link to="/SCSTeam" className="nav-item">Get Involved</Link> 
+                <Link to="/GetInvolved" className="nav-item">Get Involved</Link> 
                 <br/><br/>
                 <Link to="/SCSTeam" className="nav-list-item">Current Team</Link>
                 <br/>
