@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+import CurrentExecs from '../../components/SCSTeam/CurrentExecs';
 import SCSTeamInfo from '../../components/SCSTeam/SCSTeamIntro';
 
 export default class SCSTeam extends Component {
@@ -6,6 +8,7 @@ export default class SCSTeam extends Component {
     return (
       <div className="container">
         <SCSTeamInfo/>
+        <CurrentExecs/>
       </div>
     )
   }

@@ -4,7 +4,7 @@ export default class SCSTeamInfo extends Component {
   render() {
     return (
       <div>
-        <h1>Our Team</h1>
+        <h1 style={{textAlign:'center'}}>Our Team</h1>
       </div>
     );
   }

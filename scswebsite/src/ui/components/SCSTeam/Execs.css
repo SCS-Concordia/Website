@@ -1,0 +1,22 @@
+@media screen and (min-width: 600px){
+    .exec{
+        width: 50%;
+        align-items: center;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .exec{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
