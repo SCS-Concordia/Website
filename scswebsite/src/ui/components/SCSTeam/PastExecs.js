@@ -221,7 +221,7 @@ class PastExecsComponent extends React.Component {
           </ExpansionPanelDetails>
         </ExpansionPanel>
         <ExpansionPanel
-          expanded={expanded === "panel5"}
+          expanded={expanded === "panel8"}
           onChange={this.handleChange("panel8")}
         >
           <ExpansionPanelSummary>
