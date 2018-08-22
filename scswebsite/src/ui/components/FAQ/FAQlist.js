@@ -48,7 +48,7 @@ export default class FAQList extends Component {
                 <h2>How/Where can I order hoodie or a sweater?</h2>
                 <p>
                     We usually have a sale at the beginning of the Fall semester and another one at the beginning of
-                    the Winter semester. \n
+                    the Winter semester. <br/><br/>
                     You can try out the different sizes at our booth during the sale period and pay at the ECA
                     office on the 8th floor.
                 </p>

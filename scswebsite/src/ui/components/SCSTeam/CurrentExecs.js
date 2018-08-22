@@ -25,7 +25,7 @@ export default class CurrentExecs extends Component {
             </p>
         </div>
         <div className="exec">
-            <img src="image/execs/felix.png" alt="" width="250em"/>
+            <img src="image/execs/felix.jpg" alt="" width="250em"/>
             <h2>VP Academics</h2>
             <p>Felix Lapierre</p>
             <p> Email: academics.scs@ecaconcordia.ca
