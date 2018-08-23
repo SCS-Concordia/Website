@@ -81,6 +81,22 @@ const styles = {
                             </div>
                         </Link>
                      </Col>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/SpiceUpYourLife"}>
+                            <div className="event-col">
+                                <h3>Spice Up Your Life</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
+                     <Col xs={12} sm={6}>
+                        <Link to={"/Hackathon"}>
+                            <div className="event-col">
+                                <h3>Hackathon</h3>
+                                <img src="image/grey.jpg" className="event-list-img"/>
+                            </div>
+                        </Link>
+                     </Col>
                  </Row>
              </Grid>
          </div>

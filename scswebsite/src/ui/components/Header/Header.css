@@ -10,3 +10,17 @@
     padding: 0;
     height: auto;
 }
+
+.notTop{
+    display: none;
+}
+
+.isTop{ 
+    align-items: center;
+    text-align: center;
+}
+
+.centerImg{
+    margin-top: 1em; 
+    margin-bottom: 1em;
+}

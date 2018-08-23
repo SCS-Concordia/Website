@@ -10,11 +10,14 @@ import EventsHome from './ui/pages/Events/EventsHome';
 import FAQ from './ui/pages/FAQ/FAQ';
 import Footer from './ui/components/Footer/Footer';
 import GetInvolved from './ui/pages/GetInvolved/GetInvolved';
+import Hackathon from './ui/components/Events/Hackathon';
 import Header from './ui/components/Header/Header';
 import Home from './ui/pages/Home/Home';
 import LizardLounge from './ui/components/Events/LizardLounge';
+import MilkCookies from './ui/components/Events/MilkCookies';
 import PastExecs from './ui/pages/SCSTeam/PastExecs';
 import SCSTeam from './ui/pages/SCSTeam/SCSTeam';
+import SpiceUpYourLife from './ui/components/Events/SpiceUpYourLife';
 import Sponsors from './ui/pages/Sponsors/Sponsors';
 import Tutorials from './ui/components/Events/Tutorials';
 
@@ -24,7 +27,7 @@ class App extends Component {
             <div className="App">
                 <Router>
                     <div className="mainContent">
-                        <Header/>
+                        <Header {...this.props}/>
                         <Route exact name="Home" path="/" component={Home}/>
                         <Route name="Events" path="/Events" component={EventsHome}/>
                         <Route name="Team" path="/SCSTeam" component={SCSTeam}/>
@@ -37,6 +40,9 @@ class App extends Component {
                         <Route name="ClothingSale" path="/ClothingSale" component={ClothingSale}/>
                         <Route name="LizardLounge" path="/LizardLounge" component={LizardLounge}/>
                         <Route name="PastExecs" path="/PastExecs" component={PastExecs}/>
+                        <Route name="MilkCookies" path="/Milk&Cookies" component={MilkCookies}/>
+                        <Route name="SpiceUpYourLife" path="/SpiceUpYourLife" component={SpiceUpYourLife}/>
+                        <Route name="Hackathon" path="/Hackathon" component={Hackathon}/>
                     </div>
                 </Router>
                 <Footer/>
