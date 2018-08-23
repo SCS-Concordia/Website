@@ -14,7 +14,7 @@ function Header(props) {
       <div className="notTop">
         <div>
           <Link to="/">
-            <img src="image/favicon.ico" height="30em" />
+            <img src="image/logo.png" height="30em" />
           </Link>
           <div style={{ float: "right" }}>
             <Navigation {...props} />
@@ -23,7 +23,7 @@ function Header(props) {
       </div>
       <div className="isTop">
         <Link to="/">
-          <img src="image/favicon.ico" height="80em" className="centerImg" />
+          <img src="image/logo.png" height="80em" className="centerImg" />
         </Link>
         
         <NavList {...props} />
