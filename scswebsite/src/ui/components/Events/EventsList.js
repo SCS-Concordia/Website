@@ -32,16 +32,14 @@ const styles = {
                      <Col xs={12} sm={6}>
                         <Link to={"/Tutorials"}>
                             <div className="event-col">
-                                <h3>Tutorials</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <img src="image/events/tutorial.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
                      <Col xs={12} sm={6}>
                         <Link to={"/Competitions"}>
                             <div className="event-col">
-                                <h3>Competitions</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <img src="image/events/competition.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
@@ -50,16 +48,14 @@ const styles = {
                      <Col xs={12} sm={6}>
                         <Link to={"/AlgoTime"}>
                             <div className="event-col">
-                                <h3>AlgoTime</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                               <img src="image/events/algotime.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
                      <Col xs={12} sm={6}>
                      <Link to={"/ClothingSale"}>
                             <div className="event-col">
-                                <h3>Clothing Sale</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <img src="image/events/clothingSale.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
@@ -68,32 +64,32 @@ const styles = {
                      <Col xs={12} sm={6}>
                         <Link to={"/LizardLounge"}>
                             <div className="event-col">
-                                <h3>Lizard Lounge</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <h2>Lizard Lounge</h2>
+                                <img src="image/events/lizardLounge.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
                      <Col xs={12} sm={6}>
                         <Link to={"/Milk&Cookies"}>
                             <div className="event-col">
-                                <h3>Milk & Cookies</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <h2>Milk & Cookies</h2>
+                                <img src="image/events/milkCookie.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
                      <Col xs={12} sm={6}>
                         <Link to={"/SpiceUpYourLife"}>
                             <div className="event-col">
-                                <h3>Spice Up Your Life</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <h2>Spice Up Your Life</h2>
+                                <img src="image/events/spiceUpYourLife.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>
                      <Col xs={12} sm={6}>
                         <Link to={"/Hackathon"}>
                             <div className="event-col">
-                                <h3>Hackathon</h3>
-                                <img src="image/grey.jpg" className="event-list-img"/>
+                                <h2>Hackathon</h2>
+                                <img src="image/events/hackathon.png" className="event-list-img"/>
                             </div>
                         </Link>
                      </Col>

@@ -4,22 +4,22 @@ import React, {Component} from 'react';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 
 import AlgoTime from './ui/components/Events/AlgoTime';
-import ClothingSale from './ui/components/Events/CothingSale';
-import Competitions from './ui/components/Events/Competitions';
+import ClothingSale from './ui/pages/Events/ClothingSale';
+import Competitions from './ui/pages/Events/Competitions';
 import EventsHome from './ui/pages/Events/EventsHome';
 import FAQ from './ui/pages/FAQ/FAQ';
 import Footer from './ui/components/Footer/Footer';
 import GetInvolved from './ui/pages/GetInvolved/GetInvolved';
-import Hackathon from './ui/components/Events/Hackathon';
+import Hackathon from './ui/pages/Events/Hackathon';
 import Header from './ui/components/Header/Header';
 import Home from './ui/pages/Home/Home';
-import LizardLounge from './ui/components/Events/LizardLounge';
-import MilkCookies from './ui/components/Events/MilkCookies';
+import LizardLounge from './ui/pages/Events/LizardLounge';
+import MilkCookies from './ui/pages/Events/MilkCookies';
 import PastExecs from './ui/pages/SCSTeam/PastExecs';
 import SCSTeam from './ui/pages/SCSTeam/SCSTeam';
-import SpiceUpYourLife from './ui/components/Events/SpiceUpYourLife';
+import SpiceUpYourLife from './ui/pages/Events/SpiceUpYourLife';
 import Sponsors from './ui/pages/Sponsors/Sponsors';
-import Tutorials from './ui/components/Events/Tutorials';
+import Tutorials from './ui/pages/Events/Tutorials';
 
 class App extends Component {
     render() {
