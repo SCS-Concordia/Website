@@ -118,9 +118,17 @@
                             </div>                             
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-internal.png"/>
-                                <div class="card-block">
-                                    <a class="btn btn-primary btn-md" href="#internal-candidates" role="button" id="btn-internal-candidates" onclick=" $('#internal-candidates').slideDown();">Candidates</a>
-
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="internalDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Jose Internal" onclick=" $('#Jose Internal').slideDown();">Jose Fernandez</a>
+                                        <a class="dropdown-item" href="#Roshleen" onclick=" $('#Roshleen').slideDown();">Roshleen Mand</a>
+                                        <a class="dropdown-item" href="#Matthew Intenal" onclick=" $('#Matthew Intenal').slideDown();">Matthew Pan</a>
+                                        <a class="dropdown-item" href="#Peter Intenal" onclick=" $('#Peter Intenal').slideDown();">Peter Delis</a>
+                                        <a class="dropdown-item" href="#Jeffery Intenal" onclick=" $('#Jeffery Intenal').slideDown();">Jeffery Lam</a>
+                                      </div>
                                 </div>
                             </div>
                             <div class="card">
@@ -140,10 +148,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-comps.png"/>
-                                <div class="card-block">
-                                    <a class="btn btn-primary btn-md" href="#comps-candidates" role="button" id="btn-comps-candidates" onclick=" $('#comps-candidates').slideDown();">Candidates</a>
-                                    
-                                </div>
+                                
                             </div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-projects.png"/>
