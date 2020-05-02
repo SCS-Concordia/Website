@@ -81,13 +81,21 @@
         <div id="content" class="col-sm-12 col-md-9">
 
             <div class="jumbotron" style="padding-top:2em; ">
-                    <div class="card-deck-wrapper">
+                <div class="card-deck-wrapper">
                            
                         <div class="card-deck">
                             <div class="empty-card"></div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-pres.png"/>
                                 <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="presDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown button
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Felix" onclick=" $('#president-candidates').slideDown();">Felix</a>
+                                        <a class="dropdown-item" href="#Grecia Pres">Grecia</a>
+                                        <a class="dropdown-item" href="#Lavoie Pres">Lavoie</a>
+                                      </div>
                                     <a class="btn btn-primary btn-md"  href="#president-candidates" onclick=" $('#president-candidates').slideDown();">Candidates</a>                               
                                 </div>
                             </div>
@@ -146,79 +154,426 @@
                             <div class="empty-card"></div>
                         </div>
                         
-                    </div>
-                    <div class="card-deck-wrapper" id= "president-candidates">
+                </div>
+                <div class="card-deck-wrapper" id= "president-candidates">
                     <br>
                     <h4>Presidential Candidates</h4><br>
-                    <div class="card-deck">
-                        <!--div class="card">
-                            <img class="card-img-top" src="/static/images/execs/Placeholder.png">
-                            <div class="card-block">
-                                <h6 class="card-title">Name here</h6>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        Platfrom text here
-                                    </small>
+                    <div class="card-deck col-sm-12 col-md-9" id="Felix">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Felix Lapierre</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
                                 </p>
                             </div>
-                        </div-->
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Grecia Pres">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Grecia Olano</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Lavoie Pres">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Alexandre Lavoie</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Yasaman Pres">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Yasaman Sabbagh Ziarani</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-deck-wrapper" id = "comms-candidates"><br>
                     <h4>VP Communications Candidates</h4><br>
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Jun">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Jun Loke</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-deck-wrapper" id = "internal-candidates">
-                    <br>
-                    <h4>VP Internal Candidates</h4><br>
-                    <div class="card empty-card"></div>
-                    <div class="card empty-card"></div>
-
+                    <div class="card-deck col-sm-12 col-md-9" id = "Jeff Comms">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Jeffery Lam</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
-               <div class="card-deck-wrapper" id = "finance-candidates"><br>
-                    <h4>VP Finance Candidates</h4><br>
-                    <div class="card-deck">
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Laila">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Laila Chamma'a</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+                <div class="card-deck-wrapper" id = "internal-candidates">
+                    <br/>
+                    <h4>VP Internal Candidates</h4><br>
+                    
+                        <div class="card-deck col-sm-12 col-md-9" id="Jose Internal">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/Candidates/JoseFernandez.jpg"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Jose Fernandez</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        First Choice <br/>
+                                        Hi there! My name is Jose Fernandez, and I'm running for the VP Projects position with SCS. Having just finished my first year at Concordia in Computer Science, I can proudly say that SCS helped me stand out by encouraging me to try new things such as going to competitions. I want SCS to remain a solid source of encouragement and support for students, both new and returning, and I am confident I can do that for the society and it's community as a part of the executive team. After spending time with SCS as a First Year Representative, I have a good idea of what it takes, and I've prepared myself to dedicate more time to the society. I've always been one to take on challenges, and as VP Projects, I'll make sure to empower the SCS community to follow their ideas and make them grow. Ideally, I'll also help SCS go even further than ever before with new project ideas. There is no better feeling than overcoming a good challenge, and I'll be there to support our innovators and geniuses in getting there! 
+                                   
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Roshleen">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Roshleen Mand</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Matthew Internal">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Matthew Pan</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Peter Internal">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Peter Delis</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9"id = "Jeffery Internal">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Jeffery Lam</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="card-deck-wrapper" id = "finance-candidates"><br>
+                    <h4>VP Finance Candidates</h4><br>
+                        <div class="card-deck col-sm-12 col-md-9">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Grecia Olano</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
                 <div class="card-deck-wrapper" id = "acad-candidates"><br>
                     <h4>VP Academic Candidates</h4><br>
-                    <div class="card-deck">
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Gabriel">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Gabriel Karras</h6>
+                                <p class="card-text">
+                                    Hi,<br/>
+
+                                    I'm a 3rd-year student in Computer Engineering and applying for the post of VP Academics.<br/>
+                                    
+                                    During my first year, I went to most of the SCS and IEEE tutorials. This gave me some advantage in terms of knowledge and meeting other experienced students. Due to this, I knew how and where to apply for internships and how to tackle new hobbies.
+                                    <br/>
+                                    This leads me to apply for this post because I want to give back to others(I also like teaching).
+                                    <br/>
+                                    About me:
+                                    <ul>
+                                        <li>Luckily, I have plenty of friends or acquaintances in various fields of tech & science that are smarter than me. Thus, it allows me to invite them to teach.</li>
+                                        <li>Hobbyist: Audio, video, embedded systems(i.e: robotics), some ethical hacking & machine learning</li>
+                                        <li>More hobbies: painting and video games</li>
+                                        <li>Use to work as an Eng. Technician</li>
+                                        <li>Use to be enrolled in the Forces</li>
+                                        <li>Loves to teach</li>
+                                        <li>Organized</li>
+                                    </ul>
+                                    My Program for 2020-2021:
+                                    <ul>
+                                        <li>(Guaranteed)Maintain current popular tutorials(i.e: intro to git,intro to unity)
+                                      Would prefer to introduce a more intuitive teaching method (inspired by CodingTrain's git 
+                                      tutorial)</li>
+                                      <li>(Planning) Additional tutorials from various field:
+                                            <ul>
+                                              <li>(Might need to invite a friend who's a researcher)Hands-On Machine Learning(none of that deep theory stuff that everyone forgets)-directly work with libraries and real data</li>
+                                              <li>Embedded Systems: Although this is a vast field, we can introduce basic hardware tutorials and collaborate with IEEE & Space Concordia</li>
+                                              <li>Deeper Unity Tutorials in collaboration with Concordia Game Devs Club(they know their Unity)</li>
+                                            </ul>
+                                      </li>
+                                      <li>(Optional) Crash courses for common Comp.Sci/SOEN/COEN/ELEC courses.</li>
+
+
+                                    </ul>
+                                    In summary, the academic program simply adds more tutorials. It looks to integrate other student clubs which can help expose students to new careers/hobbies/projects.
+                                </p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Matthew Acad">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Matthew Pan</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-deck col-sm-12 col-md-9" id = "Abhay Acad">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Abhay Panchoo</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Yasaman Acad">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Yasaman Sabbagh Ziarani</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-deck-wrapper" id = "comps-candidates"><br>
                     <h4>VP Competitions Candidates</h4><br>
                     <div class="card-deck">
-                        
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Smit Comps">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Smit Desai</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "lavoie Comps">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Alexandre Lavoie</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Yasaman Comps">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Yasaman Sabbagh Ziarani</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Abhay Comps">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Abhay Panchoo</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck col-sm-12 col-md-9" id = "Grecia Comps">
+                            <div class="card" style="padding: 1em;">
+                                <div class="col-lg-4 my-auto">
+                                    <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h6 class="card-title">Grecia Olano</h6>
+                                    <p class="card-text" style="text-align: justify;">
+                                        Platform coming soon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-deck-wrapper" id = "projects-candidates"><br>
                     <h4>VP Projects Candidates</h4><br>
-                    <div class="card-deck">
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Jose Proj">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/Candidates/JoseFernandez.jpg"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Jose Fernandez</h6>
+                                <p class="card-text">
+                                    Third Choice <br/>
+                                    Hi there! My name is Jose Fernandez, and I'm running for the VP Projects position with SCS. Having just finished my first year at Concordia in Computer Science, I can proudly say that SCS helped me stand out by encouraging me to try new things such as going to competitions. I want SCS to remain a solid source of encouragement and support for students, both new and returning, and I am confident I can do that for the society and it's community as a part of the executive team. After spending time with SCS as a First Year Representative, I have a good idea of what it takes, and I've prepared myself to dedicate more time to the society. I've always been one to take on challenges, and as VP Projects, I'll make sure to empower the SCS community to follow their ideas and make them grow. Ideally, I'll also help SCS go even further than ever before with new project ideas. There is no better feeling than overcoming a good challenge, and I'll be there to support our innovators and geniuses in getting there!
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Rover Proj">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Andrew Rover</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Smit Proj">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Smit Desai</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-deck-wrapper" id = "social-candidates"><br>
                     <h4>VP Social Candidates</h4><br>
-                    <div class="card-deck">
-                        <div class="card empty-card"></div>
-                        <div class="card empty-card"></div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Jose Proj">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/Candidates/JoseFernandez.jpg"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Jose Fernandez</h6>
+                                <p class="card-text">
+                                    Second Choice <br/>
+                                    Hi there! My name is Jose Fernandez, and I'm running for the VP Social position with SCS. Having just finished my first year at Concordia in Computer Science, I can proudly say that SCS helped me stand out by encouraging me to try new things such as going to competitions. I want SCS to remain a solid source of encouragement and support for students, both new and returning, and I am confident I can do that for the society and it's community as a part of the executive team. After spending time with SCS as a First Year Representative, I have a good idea of what it takes, and I've prepared myself to dedicate more time to the society. My goal as VP Social goes two ways. I want to challenge myself with tasks I'm not so familiar with, and I also want to provide a balanced learning experience for the SCS community. A wise person definitely once said that half the value of the journey is the people you meet along the way. When it's not time to code, I'll make sure our people have a blast forgetting the weight of classes we all carry, together! 
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck col-sm-12 col-md-9" id = "Rover Proj">
+                        <div class="card" style="padding: 1em;">
+                            <div class="col-lg-4 my-auto">
+                                <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="card-title">Andrew Rover</h6>
+                                <p class="card-text" style="text-align: justify;">
+                                    Platform coming soon
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
-            </ 
-               
-            </div>
 
             <div id="footer">
                 <hr>
