@@ -105,8 +105,15 @@
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-comms.png"/>
-                                <div class="card-block">
-                                    <a class="btn btn-primary btn-md" href="#comms-candidates" role="button" id="btn-comms-candidates" onclick=" $('#comms-candidates').slideDown();">Candidates</a>
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="commsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Jun" onclick=" $('#Jun').slideDown();">Jun Loke</a>
+                                        <a class="dropdown-item" href="#Jeff Comms" onclick=" $('#Jeff Comms').slideDown();">Jeffery Lam</a>
+                                        <a class="dropdown-item" href="#Laila" onclick=" $('#Laila').slideDown();">Laila Chamma'a</a>
+                                      </div>
                                 </div>
                             </div>                             
                             <div class="card">
