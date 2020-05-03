@@ -115,7 +115,7 @@
                                         <a class="dropdown-item" href="#Laila" onclick=" $('#Laila').slideDown();">Laila Chamma'a</a>
                                       </div>
                                 </div>
-                            </div>                             
+                            </div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-internal.png"/>
                                 <div class ="card-block">
@@ -133,35 +133,69 @@
                             </div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-finance.png"/>
-                                <div class="card-block">
-                                    <a class="btn btn-primary btn-md" href="#finance-candidates" role="button" id="btn-finance-candidates" onclick=" $('#finance-candidates').slideDown();">Candidates</a>
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="financeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Grecia Finance" onclick=" $('#Grecia Finance').slideDown();">Grecia Olano</a>
+                                      </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-acad.png"/>
-                                <div class="card-block">
-    
-                                    <a class="btn btn-primary btn-md" href="#acad-candidates" role="button" id="btn-acad-candidates" onclick=" $('#acad-candidates').slideDown();">Candidates</a>
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="academicDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Gabriel" onclick=" $('#Gabriel').slideDown();">Gabriel Karras</a>
+                                        <a class="dropdown-item" href="#Matthew Acad" onclick=" $('#Matthew Acad').slideDown();">Matthew Pan</a>
+                                        <a class="dropdown-item" href="#Abhay Acad" onclick=" $('#Abhay Acad').slideDown();">Abhay Panchoo</a>
+                                        <a class="dropdown-item" href="#Yasaman Acad" onclick=" $('#Yasaman Acad').slideDown();">Yasaman Sabbagh Ziarani</a>
+                                      </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-comps.png"/>
-                                
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="competitionsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Smit Comps" onclick=" $('#Smit Comps').slideDown();">Smit Desai</a>
+                                        <a class="dropdown-item" href="#Lavoie Comps" onclick=" $('#Lavoie Comps').slideDown();">Alexandre Lavoie</a>
+                                        <a class="dropdown-item" href="#Abhay Comps" onclick=" $('#Abhay Comps').slideDown();">Abhay Panchoo</a>
+                                        <a class="dropdown-item" href="#Yasaman Comps" onclick=" $('#Yasaman Comps').slideDown();">Yasaman Sabbagh Ziarani</a>
+                                        <a class="dropdown-item" href="#Grecia Comps" onclick=" $('#Grecia Comps').slideDown();">Grecia Olano</a>
+                                      </div>
+                                </div>
                             </div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-projects.png"/>
-                                <div class="card-block">
-                                    <a class="btn btn-primary btn-md" href="#projects-candidates" role="button" id="btn-projects-candidates" onclick=" $('#projects-candidates').slideDown();">Candidates</a>
-                                    
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="ProjectsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Jose Proj" onclick=" $('#Jose Proj').slideDown();">Jose Fernandez</a>
+                                        <a class="dropdown-item" href="#Rover Proj" onclick="$('#Rover Proj').slideDown();">Andrew Rover</a>
+                                        <a class="dropdown-item" href="#Smit Proj" onclick=" $('#Smit Proj').slideDown();">Smit Desai</a>
+                                      </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <img class="card-img-top" src="/static/images/elections cards/titlecard-social.png"/>
-                                <div class="card-block">
-                                    
-                                    <a class="btn btn-primary btn-md" href="#social-candidates" role="button" id="btn-social-candidates" onclick=" $('#social-candidates').slideDown();">Candidates</a>
+                                <div class ="card-block">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="ProjectsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Candidates
+                                      </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#Jose Social" onclick=" $('#Jose Social').slideDown();">Jose Fernandez</a>
+                                        <a class="dropdown-item" href="#Rover Social" onclick="$('#Rover Social').slideDown();">Andrew Rover</a>
+                                      </div>
                                 </div>
                             </div>
                             <div class="empty-card"></div>
@@ -446,7 +480,6 @@
                 </div>
                 <div class="card-deck-wrapper" id = "comps-candidates"><br>
                     <h4>VP Competitions Candidates</h4><br>
-                    <div class="card-deck">
                         <div class="card-deck col-sm-12 col-md-9" id = "Smit Comps">
                             <div class="card" style="padding: 1em;">
                                 <div class="col-lg-4 my-auto">
@@ -460,7 +493,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-deck col-sm-12 col-md-9" id = "lavoie Comps">
+                        <div class="card-deck col-sm-12 col-md-9" id = "Lavoie Comps">
                             <div class="card" style="padding: 1em;">
                                 <div class="col-lg-4 my-auto">
                                     <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
@@ -512,7 +545,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <div class="card-deck-wrapper" id = "projects-candidates"><br>
                     <h4>VP Projects Candidates</h4><br>
@@ -559,7 +591,7 @@
                 </div>
                 <div class="card-deck-wrapper" id = "social-candidates"><br>
                     <h4>VP Social Candidates</h4><br>
-                    <div class="card-deck col-sm-12 col-md-9" id = "Jose Proj">
+                    <div class="card-deck col-sm-12 col-md-9" id = "Jose Social">
                         <div class="card" style="padding: 1em;">
                             <div class="col-lg-4 my-auto">
                                 <img class="card-img-top" src="/static/images/Candidates/JoseFernandez.jpg"/>
@@ -573,7 +605,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-deck col-sm-12 col-md-9" id = "Rover Proj">
+                    <div class="card-deck col-sm-12 col-md-9" id = "Rover Social">
                         <div class="card" style="padding: 1em;">
                             <div class="col-lg-4 my-auto">
                                 <img class="card-img-top" src="/static/images/execs/Placeholder.png"/>
